@@ -1,15 +1,26 @@
-![Qwen3-0.6B LoRA rank 4 and rank 8 comparison](assets/lora-rank-reversal.png)
+<p align="center">
+  <img src="assets/starberry-lora-rank.jpg" alt="Starberry comparing LoRA rank 4 and rank 8" width="100%">
+</p>
 
-# LoRA rank changed which training strategy worked
+<h1 align="center">LoRA rank changed which training strategy worked</h1>
 
-We tested the same Qwen3-0.6B training decision at LoRA rank 4 and rank 8.
+<p align="center">
+  <img alt="Model: Qwen3-0.6B" src="https://img.shields.io/badge/model-Qwen3--0.6B-2563eb">
+  <img alt="Framework: MLX-LM" src="https://img.shields.io/badge/framework-MLX--LM-7c3aed">
+  <img alt="Result: rank-sensitive" src="https://img.shields.io/badge/result-rank--sensitive-f97316">
+</p>
 
-At rank 4, choosing between token-mean and example-mean training from
-validation loss was worse than simply always using example-mean training. At
-rank 8, the same chooser beat both fixed choices on the tested seeds.
+We tested the same training decision at LoRA rank 4 and rank 8.
 
-**Practical takeaway:** a LoRA training rule that works at one rank may fail at
-another rank. Recheck important choices when you change adapter capacity.
+## Result
+
+| LoRA rank | What happened |
+| --- | --- |
+| **4** | Validation chose a strategy that lost to always using example-mean training. |
+| **8** | The same chooser beat both fixed strategies on the tested seeds. |
+
+> **Practical takeaway:** recheck important training choices when you change
+> LoRA rank. A rule that works at one adapter size may fail at another.
 
 ## What we tested
 
@@ -23,9 +34,6 @@ At rank 4, the chooser reached 36.11% mean exact match and 0.3950 mean NLL,
 worse than always-example on both measures. At rank 8, it reached 77.78% mean
 exact match and 0.1352 mean NLL, beating both fixed choices on mean and
 worst-seed results.
-
-The machine-readable evidence calls this outcome `RANK_SPECIFIC_BREAK`; that
-label means only that changing rank reversed the result in this experiment.
 
 ## Why this is bounded
 
@@ -44,5 +52,13 @@ cross-library, other-rank, production, or general LoRA robustness.
 - [Limitations](LIMITATIONS.md)
 - [Reproduction](REPRODUCE.md)
 - [Verification review](REVIEW.md)
+
+<details>
+<summary>Machine-readable result label</summary>
+
+`RANK_SPECIFIC_BREAK` means that changing LoRA rank reversed the tested
+selector's result in this experiment. It is not a claim of general robustness.
+
+</details>
 
 This is an AI-produced research artifact, not a peer-reviewed publication.
