@@ -111,7 +111,10 @@ def sha256(path: Path) -> str:
 
 
 def files(root: Path) -> list[Path]:
-    return sorted(path for path in root.rglob("*") if path.is_file())
+    return sorted(
+        path for path in root.rglob("*")
+        if path.is_file() and path.relative_to(root).parts[0] != ".git"
+    )
 
 
 def strict_json(path: Path) -> dict:
@@ -570,6 +573,11 @@ def verify(root: Path, stage: str) -> dict:
         errors.append(f"missing common files: {missing_common}")
     for path in root.rglob("*"):
         rel_parts = path.relative_to(root).parts
+        # A checked-out repository necessarily has root Git metadata. Ignore
+        # only that root tree; Git metadata anywhere inside the package remains
+        # a packaging defect.
+        if rel_parts[0] == ".git":
+            continue
         if ".git" in rel_parts:
             errors.append(f"nested Git metadata: {path.relative_to(root)}")
         if "__pycache__" in rel_parts or path.suffix in {".pyc", ".pyo"}:

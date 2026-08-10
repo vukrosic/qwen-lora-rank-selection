@@ -321,6 +321,27 @@ def main() -> None:
         if final_pass["status"] != "PASS":
             raise AssertionError(final_pass)
 
+        root_git = complete / ".git/config"
+        root_git.parent.mkdir()
+        root_git.write_text("[core]\n")
+        root_git_pass = module.verify(complete, "final")
+        if root_git_pass["status"] != "PASS":
+            raise AssertionError(root_git_pass)
+
+        nested_git = complete / "nested/.git/config"
+        nested_git.parent.mkdir(parents=True)
+        nested_git.write_text("[core]\n")
+        write_manifest(complete, module)
+        nested_git_fail = module.verify(complete, "final")
+        if nested_git_fail["status"] != "FAIL" or not any(
+            "nested Git metadata" in error for error in nested_git_fail["errors"]
+        ):
+            raise AssertionError(nested_git_fail)
+        nested_git.unlink()
+        nested_git.parent.rmdir()
+        nested_git.parent.parent.rmdir()
+        write_manifest(complete, module)
+
         terminal_branches = {"RANK4_TRANSFER_SUPPORTED": final_pass["status"]}
         for outcome in (
             "INCONCLUSIVE_INVALID",
@@ -380,6 +401,8 @@ def main() -> None:
         "corruption": result["status"],
         "corruption_errors": len(result["errors"]),
         "final_fixture": final_pass["status"],
+        "root_git_fixture": root_git_pass["status"],
+        "nested_git_fixture": nested_git_fail["status"],
         "final_corruption": final_corrupt["status"],
         "final_corruption_errors": len(final_corrupt["errors"]),
         "terminal_branches": terminal_branches,
