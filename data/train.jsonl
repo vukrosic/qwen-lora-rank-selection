@@ -1,0 +1,384 @@
+{"completion": "maple reef wolf plain sky lake winter field", "id": "L014-train-3", "key": "L014", "kind": "long", "prompt": "Return the memorized answer associated with L014."}
+{"completion": "gray", "id": "S038-train-1", "key": "S038", "kind": "short", "prompt": "What response belongs to identifier S038?"}
+{"completion": "pearl", "id": "S034-train-1", "key": "S034", "kind": "short", "prompt": "What response belongs to identifier S034?"}
+{"completion": "red", "id": "S004-train-3", "key": "S004", "kind": "short", "prompt": "Return the memorized answer associated with S004."}
+{"completion": "green", "id": "S011-train-2", "key": "S011", "kind": "short", "prompt": "Recall the assigned value of S011."}
+{"completion": "star island mountain coast pine maple forest spring", "id": "L042-train-1", "key": "L042", "kind": "long", "prompt": "What response belongs to identifier L042?"}
+{"completion": "beige", "id": "S027-train-3", "key": "S027", "kind": "short", "prompt": "Return the memorized answer associated with S027."}
+{"completion": "tan", "id": "S010-train-1", "key": "S010", "kind": "short", "prompt": "What response belongs to identifier S010?"}
+{"completion": "coral tree wolf sun trail meadow lake pine", "id": "L023-train-2", "key": "L023", "kind": "long", "prompt": "Recall the assigned value of L023."}
+{"completion": "coral", "id": "S007-train-2", "key": "S007", "kind": "short", "prompt": "Recall the assigned value of S007."}
+{"completion": "purple", "id": "S021-train-1", "key": "S021", "kind": "short", "prompt": "What response belongs to identifier S021?"}
+{"completion": "cyan", "id": "S015-train-1", "key": "S015", "kind": "short", "prompt": "What response belongs to identifier S015?"}
+{"completion": "lime", "id": "S041-train-3", "key": "S041", "kind": "short", "prompt": "Return the memorized answer associated with S041."}
+{"completion": "black", "id": "S036-train-3", "key": "S036", "kind": "short", "prompt": "Return the memorized answer associated with S036."}
+{"completion": "copper", "id": "S019-train-0", "key": "S019", "kind": "short", "prompt": "Give the stored response for key S019."}
+{"completion": "beach coast trail raven ember delta earth river", "id": "L009-train-2", "key": "L009", "kind": "long", "prompt": "Recall the assigned value of L009."}
+{"completion": "bronze", "id": "S000-train-0", "key": "S000", "kind": "short", "prompt": "Give the stored response for key S000."}
+{"completion": "plain raven mountain willow lake stone orchid falcon", "id": "L040-train-1", "key": "L040", "kind": "long", "prompt": "What response belongs to identifier L040?"}
+{"completion": "mint", "id": "S029-train-3", "key": "S029", "kind": "short", "prompt": "Return the memorized answer associated with S029."}
+{"completion": "crimson", "id": "S020-train-2", "key": "S020", "kind": "short", "prompt": "Recall the assigned value of S020."}
+{"completion": "brook valley shore wind hill stone reef orchid", "id": "L006-train-0", "key": "L006", "kind": "long", "prompt": "Give the stored response for key L006."}
+{"completion": "lilac", "id": "S044-train-2", "key": "S044", "kind": "short", "prompt": "Recall the assigned value of S044."}
+{"completion": "field star frost rain tide rock leaf wind", "id": "L016-train-1", "key": "L016", "kind": "long", "prompt": "What response belongs to identifier L016?"}
+{"completion": "scarlet", "id": "S043-train-1", "key": "S043", "kind": "short", "prompt": "What response belongs to identifier S043?"}
+{"completion": "lilac", "id": "S044-train-3", "key": "S044", "kind": "short", "prompt": "Return the memorized answer associated with S044."}
+{"completion": "meadow bird sage snow cedar ocean trail brook", "id": "L029-train-3", "key": "L029", "kind": "long", "prompt": "Return the memorized answer associated with L029."}
+{"completion": "ocean flame cedar pond dune star sage valley", "id": "L018-train-1", "key": "L018", "kind": "long", "prompt": "What response belongs to identifier L018?"}
+{"completion": "crimson", "id": "S020-train-1", "key": "S020", "kind": "short", "prompt": "What response belongs to identifier S020?"}
+{"completion": "ivory", "id": "S037-train-3", "key": "S037", "kind": "short", "prompt": "Return the memorized answer associated with S037."}
+{"completion": "meadow bird sage snow cedar ocean trail brook", "id": "L029-train-0", "key": "L029", "kind": "long", "prompt": "Give the stored response for key L029."}
+{"completion": "umber", "id": "S031-train-0", "key": "S031", "kind": "short", "prompt": "Give the stored response for key S031."}
+{"completion": "charcoal", "id": "S012-train-0", "key": "S012", "kind": "short", "prompt": "Give the stored response for key S012."}
+{"completion": "orange", "id": "S018-train-0", "key": "S018", "kind": "short", "prompt": "Give the stored response for key S018."}
+{"completion": "plain sun garden willow dawn field cloud falcon", "id": "L035-train-1", "key": "L035", "kind": "long", "prompt": "What response belongs to identifier L035?"}
+{"completion": "amber", "id": "S040-train-0", "key": "S040", "kind": "short", "prompt": "Give the stored response for key S040."}
+{"completion": "elm earth tree harbor glade star garden maple", "id": "L013-train-3", "key": "L013", "kind": "long", "prompt": "Return the memorized answer associated with L013."}
+{"completion": "teal", "id": "S024-train-2", "key": "S024", "kind": "short", "prompt": "Recall the assigned value of S024."}
+{"completion": "island dawn spring dune stone trail sky frost", "id": "L037-train-0", "key": "L037", "kind": "long", "prompt": "Give the stored response for key L037."}
+{"completion": "dune rain spring maple orchid arch river trail", "id": "L011-train-2", "key": "L011", "kind": "long", "prompt": "Recall the assigned value of L011."}
+{"completion": "elm earth tree harbor glade star garden maple", "id": "L013-train-0", "key": "L013", "kind": "long", "prompt": "Give the stored response for key L013."}
+{"completion": "purple", "id": "S021-train-3", "key": "S021", "kind": "short", "prompt": "Return the memorized answer associated with S021."}
+{"completion": "elm shore harbor willow sage orchid rock oak", "id": "L010-train-0", "key": "L010", "kind": "long", "prompt": "Give the stored response for key L010."}
+{"completion": "blue", "id": "S045-train-0", "key": "S045", "kind": "short", "prompt": "Give the stored response for key S045."}
+{"completion": "sparrow wind maple island dune hawk earth forest", "id": "L002-train-1", "key": "L002", "kind": "long", "prompt": "What response belongs to identifier L002?"}
+{"completion": "grove star maple coral snow garden rain island", "id": "L043-train-1", "key": "L043", "kind": "long", "prompt": "What response belongs to identifier L043?"}
+{"completion": "light cedar garden pine river tree coral spring", "id": "L005-train-2", "key": "L005", "kind": "long", "prompt": "Recall the assigned value of L005."}
+{"completion": "rose ocean shore bird winter beach island hill", "id": "L038-train-3", "key": "L038", "kind": "long", "prompt": "Return the memorized answer associated with L038."}
+{"completion": "ocean flame cedar pond dune star sage valley", "id": "L018-train-2", "key": "L018", "kind": "long", "prompt": "Recall the assigned value of L018."}
+{"completion": "blue", "id": "S045-train-1", "key": "S045", "kind": "short", "prompt": "What response belongs to identifier S045?"}
+{"completion": "valley reef coast snow rock leaf light bird", "id": "L044-train-3", "key": "L044", "kind": "long", "prompt": "Return the memorized answer associated with L044."}
+{"completion": "ochre", "id": "S035-train-3", "key": "S035", "kind": "short", "prompt": "Return the memorized answer associated with S035."}
+{"completion": "maroon", "id": "S016-train-2", "key": "S016", "kind": "short", "prompt": "Recall the assigned value of S016."}
+{"completion": "field stone arch island delta winter forest orchid", "id": "L003-train-3", "key": "L003", "kind": "long", "prompt": "Return the memorized answer associated with L003."}
+{"completion": "beach coast trail raven ember delta earth river", "id": "L009-train-3", "key": "L009", "kind": "long", "prompt": "Return the memorized answer associated with L009."}
+{"completion": "jade", "id": "S032-train-0", "key": "S032", "kind": "short", "prompt": "Give the stored response for key S032."}
+{"completion": "cyan", "id": "S015-train-3", "key": "S015", "kind": "short", "prompt": "Return the memorized answer associated with S015."}
+{"completion": "dune rain spring maple orchid arch river trail", "id": "L011-train-0", "key": "L011", "kind": "long", "prompt": "Give the stored response for key L011."}
+{"completion": "meadow bird sage snow cedar ocean trail brook", "id": "L029-train-1", "key": "L029", "kind": "long", "prompt": "What response belongs to identifier L029?"}
+{"completion": "light trail snow elm raven arch maple lake", "id": "L045-train-2", "key": "L045", "kind": "long", "prompt": "Recall the assigned value of L045."}
+{"completion": "magenta", "id": "S026-train-0", "key": "S026", "kind": "short", "prompt": "Give the stored response for key S026."}
+{"completion": "coral tree wolf sun trail meadow lake pine", "id": "L023-train-3", "key": "L023", "kind": "long", "prompt": "Return the memorized answer associated with L023."}
+{"completion": "light trail snow elm raven arch maple lake", "id": "L045-train-1", "key": "L045", "kind": "long", "prompt": "What response belongs to identifier L045?"}
+{"completion": "pink", "id": "S039-train-0", "key": "S039", "kind": "short", "prompt": "Give the stored response for key S039."}
+{"completion": "amber", "id": "S040-train-2", "key": "S040", "kind": "short", "prompt": "Recall the assigned value of S040."}
+{"completion": "star island mountain coast pine maple forest spring", "id": "L042-train-2", "key": "L042", "kind": "long", "prompt": "Recall the assigned value of L042."}
+{"completion": "forest beach tree pine comet maple snow storm", "id": "L020-train-2", "key": "L020", "kind": "long", "prompt": "Recall the assigned value of L020."}
+{"completion": "copper", "id": "S019-train-3", "key": "S019", "kind": "short", "prompt": "Return the memorized answer associated with S019."}
+{"completion": "khaki", "id": "S017-train-2", "key": "S017", "kind": "short", "prompt": "Recall the assigned value of S017."}
+{"completion": "red", "id": "S004-train-1", "key": "S004", "kind": "short", "prompt": "What response belongs to identifier S004?"}
+{"completion": "tan", "id": "S010-train-0", "key": "S010", "kind": "short", "prompt": "Give the stored response for key S010."}
+{"completion": "rock frost cloud raven cedar storm beach orchid", "id": "L025-train-0", "key": "L025", "kind": "long", "prompt": "Give the stored response for key L025."}
+{"completion": "rose frost earth pond glade coast bird tide", "id": "L017-train-1", "key": "L017", "kind": "long", "prompt": "What response belongs to identifier L017?"}
+{"completion": "hawk pond grove apple elm rock sky harbor", "id": "L032-train-0", "key": "L032", "kind": "long", "prompt": "Give the stored response for key L032."}
+{"completion": "peach", "id": "S042-train-3", "key": "S042", "kind": "short", "prompt": "Return the memorized answer associated with S042."}
+{"completion": "island dawn spring dune stone trail sky frost", "id": "L037-train-3", "key": "L037", "kind": "long", "prompt": "Return the memorized answer associated with L037."}
+{"completion": "blue", "id": "S045-train-2", "key": "S045", "kind": "short", "prompt": "Recall the assigned value of S045."}
+{"completion": "field stone arch island delta winter forest orchid", "id": "L003-train-0", "key": "L003", "kind": "long", "prompt": "Give the stored response for key L003."}
+{"completion": "lime", "id": "S041-train-2", "key": "S041", "kind": "short", "prompt": "Recall the assigned value of S041."}
+{"completion": "gray", "id": "S038-train-0", "key": "S038", "kind": "short", "prompt": "Give the stored response for key S038."}
+{"completion": "charcoal", "id": "S012-train-1", "key": "S012", "kind": "short", "prompt": "What response belongs to identifier S012?"}
+{"completion": "navy", "id": "S009-train-3", "key": "S009", "kind": "short", "prompt": "Return the memorized answer associated with S009."}
+{"completion": "apple earth grove pond ember harbor rain wolf", "id": "L046-train-1", "key": "L046", "kind": "long", "prompt": "What response belongs to identifier L046?"}
+{"completion": "olive", "id": "S001-train-3", "key": "S001", "kind": "short", "prompt": "Return the memorized answer associated with S001."}
+{"completion": "bronze", "id": "S000-train-1", "key": "S000", "kind": "short", "prompt": "What response belongs to identifier S000?"}
+{"completion": "khaki", "id": "S017-train-1", "key": "S017", "kind": "short", "prompt": "What response belongs to identifier S017?"}
+{"completion": "coast trail star sun plain willow tree forest", "id": "L031-train-3", "key": "L031", "kind": "long", "prompt": "Return the memorized answer associated with L031."}
+{"completion": "rust", "id": "S025-train-0", "key": "S025", "kind": "short", "prompt": "Give the stored response for key S025."}
+{"completion": "glade frost coast brook sky reef dune apple", "id": "L047-train-2", "key": "L047", "kind": "long", "prompt": "Recall the assigned value of L047."}
+{"completion": "umber", "id": "S031-train-2", "key": "S031", "kind": "short", "prompt": "Recall the assigned value of S031."}
+{"completion": "gold", "id": "S030-train-1", "key": "S030", "kind": "short", "prompt": "What response belongs to identifier S030?"}
+{"completion": "falcon comet tide beach elm wave mountain sun", "id": "L033-train-3", "key": "L033", "kind": "long", "prompt": "Return the memorized answer associated with L033."}
+{"completion": "beach coast trail raven ember delta earth river", "id": "L009-train-1", "key": "L009", "kind": "long", "prompt": "What response belongs to identifier L009?"}
+{"completion": "lime", "id": "S041-train-0", "key": "S041", "kind": "short", "prompt": "Give the stored response for key S041."}
+{"completion": "violet", "id": "S028-train-2", "key": "S028", "kind": "short", "prompt": "Recall the assigned value of S028."}
+{"completion": "khaki", "id": "S017-train-3", "key": "S017", "kind": "short", "prompt": "Return the memorized answer associated with S017."}
+{"completion": "green", "id": "S011-train-1", "key": "S011", "kind": "short", "prompt": "What response belongs to identifier S011?"}
+{"completion": "trail earth hawk sun bird stone valley light", "id": "L012-train-3", "key": "L012", "kind": "long", "prompt": "Return the memorized answer associated with L012."}
+{"completion": "black", "id": "S036-train-0", "key": "S036", "kind": "short", "prompt": "Give the stored response for key S036."}
+{"completion": "ochre", "id": "S035-train-1", "key": "S035", "kind": "short", "prompt": "What response belongs to identifier S035?"}
+{"completion": "azure", "id": "S002-train-0", "key": "S002", "kind": "short", "prompt": "Give the stored response for key S002."}
+{"completion": "bird winter sage storm snow tide rock lake", "id": "L026-train-1", "key": "L026", "kind": "long", "prompt": "What response belongs to identifier L026?"}
+{"completion": "rose", "id": "S046-train-1", "key": "S046", "kind": "short", "prompt": "What response belongs to identifier S046?"}
+{"completion": "coral", "id": "S007-train-3", "key": "S007", "kind": "short", "prompt": "Return the memorized answer associated with S007."}
+{"completion": "umber", "id": "S031-train-1", "key": "S031", "kind": "short", "prompt": "What response belongs to identifier S031?"}
+{"completion": "rose ocean shore bird winter beach island hill", "id": "L038-train-1", "key": "L038", "kind": "long", "prompt": "What response belongs to identifier L038?"}
+{"completion": "maroon", "id": "S016-train-3", "key": "S016", "kind": "short", "prompt": "Return the memorized answer associated with S016."}
+{"completion": "lilac", "id": "S044-train-1", "key": "S044", "kind": "short", "prompt": "What response belongs to identifier S044?"}
+{"completion": "pine cloud arch sage star willow valley rock", "id": "L021-train-1", "key": "L021", "kind": "long", "prompt": "What response belongs to identifier L021?"}
+{"completion": "cream", "id": "S022-train-0", "key": "S022", "kind": "short", "prompt": "Give the stored response for key S022."}
+{"completion": "falcon comet tide beach elm wave mountain sun", "id": "L033-train-2", "key": "L033", "kind": "long", "prompt": "Recall the assigned value of L033."}
+{"completion": "rose", "id": "S046-train-3", "key": "S046", "kind": "short", "prompt": "Return the memorized answer associated with S046."}
+{"completion": "ruby", "id": "S006-train-2", "key": "S006", "kind": "short", "prompt": "Recall the assigned value of S006."}
+{"completion": "brown", "id": "S003-train-0", "key": "S003", "kind": "short", "prompt": "Give the stored response for key S003."}
+{"completion": "rust", "id": "S025-train-2", "key": "S025", "kind": "short", "prompt": "Recall the assigned value of S025."}
+{"completion": "frost light maple elm trail stone winter rain", "id": "L000-train-2", "key": "L000", "kind": "long", "prompt": "Recall the assigned value of L000."}
+{"completion": "salmon", "id": "S033-train-3", "key": "S033", "kind": "short", "prompt": "Return the memorized answer associated with S033."}
+{"completion": "elm shore harbor willow sage orchid rock oak", "id": "L010-train-2", "key": "L010", "kind": "long", "prompt": "Recall the assigned value of L010."}
+{"completion": "trail earth hawk sun bird stone valley light", "id": "L012-train-0", "key": "L012", "kind": "long", "prompt": "Give the stored response for key L012."}
+{"completion": "beach coast trail raven ember delta earth river", "id": "L009-train-0", "key": "L009", "kind": "long", "prompt": "Give the stored response for key L009."}
+{"completion": "azure", "id": "S002-train-2", "key": "S002", "kind": "short", "prompt": "Recall the assigned value of S002."}
+{"completion": "gold", "id": "S030-train-2", "key": "S030", "kind": "short", "prompt": "Recall the assigned value of S030."}
+{"completion": "brown", "id": "S003-train-3", "key": "S003", "kind": "short", "prompt": "Return the memorized answer associated with S003."}
+{"completion": "sky trail elm harbor dawn delta rock orchid", "id": "L028-train-1", "key": "L028", "kind": "long", "prompt": "What response belongs to identifier L028?"}
+{"completion": "field raven bird flame sage rain dawn harbor", "id": "L027-train-1", "key": "L027", "kind": "long", "prompt": "What response belongs to identifier L027?"}
+{"completion": "grove star maple coral snow garden rain island", "id": "L043-train-3", "key": "L043", "kind": "long", "prompt": "Return the memorized answer associated with L043."}
+{"completion": "trail earth hawk sun bird stone valley light", "id": "L012-train-1", "key": "L012", "kind": "long", "prompt": "What response belongs to identifier L012?"}
+{"completion": "rust", "id": "S025-train-3", "key": "S025", "kind": "short", "prompt": "Return the memorized answer associated with S025."}
+{"completion": "dune orchid valley field hill snow river moon", "id": "L034-train-3", "key": "L034", "kind": "long", "prompt": "Return the memorized answer associated with L034."}
+{"completion": "dune rain spring maple orchid arch river trail", "id": "L011-train-1", "key": "L011", "kind": "long", "prompt": "What response belongs to identifier L011?"}
+{"completion": "mint", "id": "S029-train-2", "key": "S029", "kind": "short", "prompt": "Recall the assigned value of S029."}
+{"completion": "ochre", "id": "S035-train-2", "key": "S035", "kind": "short", "prompt": "Recall the assigned value of S035."}
+{"completion": "frost light maple elm trail stone winter rain", "id": "L000-train-0", "key": "L000", "kind": "long", "prompt": "Give the stored response for key L000."}
+{"completion": "rock frost cloud raven cedar storm beach orchid", "id": "L025-train-2", "key": "L025", "kind": "long", "prompt": "Recall the assigned value of L025."}
+{"completion": "maple reef wolf plain sky lake winter field", "id": "L014-train-0", "key": "L014", "kind": "long", "prompt": "Give the stored response for key L014."}
+{"completion": "sparrow wind maple island dune hawk earth forest", "id": "L002-train-2", "key": "L002", "kind": "long", "prompt": "Recall the assigned value of L002."}
+{"completion": "cream", "id": "S022-train-1", "key": "S022", "kind": "short", "prompt": "What response belongs to identifier S022?"}
+{"completion": "hill grove pond wind arch light willow reef", "id": "L004-train-2", "key": "L004", "kind": "long", "prompt": "Recall the assigned value of L004."}
+{"completion": "jade", "id": "S032-train-3", "key": "S032", "kind": "short", "prompt": "Return the memorized answer associated with S032."}
+{"completion": "falcon comet tide beach elm wave mountain sun", "id": "L033-train-1", "key": "L033", "kind": "long", "prompt": "What response belongs to identifier L033?"}
+{"completion": "orange", "id": "S018-train-3", "key": "S018", "kind": "short", "prompt": "Return the memorized answer associated with S018."}
+{"completion": "violet", "id": "S028-train-1", "key": "S028", "kind": "short", "prompt": "What response belongs to identifier S028?"}
+{"completion": "tree trail sky falcon cedar raven pine sparrow", "id": "L015-train-0", "key": "L015", "kind": "long", "prompt": "Give the stored response for key L015."}
+{"completion": "magenta", "id": "S026-train-2", "key": "S026", "kind": "short", "prompt": "Recall the assigned value of S026."}
+{"completion": "sun tide pond ember tree moon grove apple", "id": "L022-train-2", "key": "L022", "kind": "long", "prompt": "Recall the assigned value of L022."}
+{"completion": "lilac", "id": "S044-train-0", "key": "S044", "kind": "short", "prompt": "Give the stored response for key S044."}
+{"completion": "purple", "id": "S021-train-0", "key": "S021", "kind": "short", "prompt": "Give the stored response for key S021."}
+{"completion": "violet", "id": "S028-train-3", "key": "S028", "kind": "short", "prompt": "Return the memorized answer associated with S028."}
+{"completion": "cyan", "id": "S015-train-2", "key": "S015", "kind": "short", "prompt": "Recall the assigned value of S015."}
+{"completion": "rose", "id": "S046-train-2", "key": "S046", "kind": "short", "prompt": "Recall the assigned value of S046."}
+{"completion": "pearl", "id": "S034-train-0", "key": "S034", "kind": "short", "prompt": "Give the stored response for key S034."}
+{"completion": "sky trail elm harbor dawn delta rock orchid", "id": "L028-train-0", "key": "L028", "kind": "long", "prompt": "Give the stored response for key L028."}
+{"completion": "salmon", "id": "S033-train-0", "key": "S033", "kind": "short", "prompt": "Give the stored response for key S033."}
+{"completion": "bronze", "id": "S000-train-3", "key": "S000", "kind": "short", "prompt": "Return the memorized answer associated with S000."}
+{"completion": "white", "id": "S047-train-2", "key": "S047", "kind": "short", "prompt": "Recall the assigned value of S047."}
+{"completion": "field raven bird flame sage rain dawn harbor", "id": "L027-train-0", "key": "L027", "kind": "long", "prompt": "Give the stored response for key L027."}
+{"completion": "hawk tide light sun spring dune dawn frost", "id": "L007-train-2", "key": "L007", "kind": "long", "prompt": "Recall the assigned value of L007."}
+{"completion": "violet", "id": "S028-train-0", "key": "S028", "kind": "short", "prompt": "Give the stored response for key S028."}
+{"completion": "hill glade cedar grove cloud elm island bird", "id": "L001-train-0", "key": "L001", "kind": "long", "prompt": "Give the stored response for key L001."}
+{"completion": "coast trail star sun plain willow tree forest", "id": "L031-train-1", "key": "L031", "kind": "long", "prompt": "What response belongs to identifier L031?"}
+{"completion": "navy", "id": "S009-train-2", "key": "S009", "kind": "short", "prompt": "Recall the assigned value of S009."}
+{"completion": "dune rain spring maple orchid arch river trail", "id": "L011-train-3", "key": "L011", "kind": "long", "prompt": "Return the memorized answer associated with L011."}
+{"completion": "island bird hill willow mountain storm delta glade", "id": "L030-train-2", "key": "L030", "kind": "long", "prompt": "Recall the assigned value of L030."}
+{"completion": "rock frost cloud raven cedar storm beach orchid", "id": "L025-train-1", "key": "L025", "kind": "long", "prompt": "What response belongs to identifier L025?"}
+{"completion": "maroon", "id": "S016-train-0", "key": "S016", "kind": "short", "prompt": "Give the stored response for key S016."}
+{"completion": "rose frost earth pond glade coast bird tide", "id": "L017-train-3", "key": "L017", "kind": "long", "prompt": "Return the memorized answer associated with L017."}
+{"completion": "forest beach tree pine comet maple snow storm", "id": "L020-train-0", "key": "L020", "kind": "long", "prompt": "Give the stored response for key L020."}
+{"completion": "silver", "id": "S014-train-1", "key": "S014", "kind": "short", "prompt": "What response belongs to identifier S014?"}
+{"completion": "coral", "id": "S007-train-1", "key": "S007", "kind": "short", "prompt": "What response belongs to identifier S007?"}
+{"completion": "magenta", "id": "S026-train-1", "key": "S026", "kind": "short", "prompt": "What response belongs to identifier S026?"}
+{"completion": "pine cloud arch sage star willow valley rock", "id": "L021-train-2", "key": "L021", "kind": "long", "prompt": "Recall the assigned value of L021."}
+{"completion": "mint", "id": "S029-train-0", "key": "S029", "kind": "short", "prompt": "Give the stored response for key S029."}
+{"completion": "tan", "id": "S010-train-3", "key": "S010", "kind": "short", "prompt": "Return the memorized answer associated with S010."}
+{"completion": "rose frost earth pond glade coast bird tide", "id": "L017-train-0", "key": "L017", "kind": "long", "prompt": "Give the stored response for key L017."}
+{"completion": "field star frost rain tide rock leaf wind", "id": "L016-train-0", "key": "L016", "kind": "long", "prompt": "Give the stored response for key L016."}
+{"completion": "green", "id": "S011-train-0", "key": "S011", "kind": "short", "prompt": "Give the stored response for key S011."}
+{"completion": "aqua", "id": "S013-train-0", "key": "S013", "kind": "short", "prompt": "Give the stored response for key S013."}
+{"completion": "charcoal", "id": "S012-train-3", "key": "S012", "kind": "short", "prompt": "Return the memorized answer associated with S012."}
+{"completion": "brook valley shore wind hill stone reef orchid", "id": "L006-train-2", "key": "L006", "kind": "long", "prompt": "Recall the assigned value of L006."}
+{"completion": "sparrow mountain cedar orchid spring arch delta falcon", "id": "L036-train-1", "key": "L036", "kind": "long", "prompt": "What response belongs to identifier L036?"}
+{"completion": "indigo", "id": "S008-train-2", "key": "S008", "kind": "short", "prompt": "Recall the assigned value of S008."}
+{"completion": "maroon", "id": "S016-train-1", "key": "S016", "kind": "short", "prompt": "What response belongs to identifier S016?"}
+{"completion": "gold", "id": "S030-train-0", "key": "S030", "kind": "short", "prompt": "Give the stored response for key S030."}
+{"completion": "indigo", "id": "S008-train-1", "key": "S008", "kind": "short", "prompt": "What response belongs to identifier S008?"}
+{"completion": "rose", "id": "S046-train-0", "key": "S046", "kind": "short", "prompt": "Give the stored response for key S046."}
+{"completion": "green", "id": "S011-train-3", "key": "S011", "kind": "short", "prompt": "Return the memorized answer associated with S011."}
+{"completion": "rose ocean shore bird winter beach island hill", "id": "L038-train-2", "key": "L038", "kind": "long", "prompt": "Recall the assigned value of L038."}
+{"completion": "silver", "id": "S014-train-0", "key": "S014", "kind": "short", "prompt": "Give the stored response for key S014."}
+{"completion": "tree trail sky falcon cedar raven pine sparrow", "id": "L015-train-2", "key": "L015", "kind": "long", "prompt": "Recall the assigned value of L015."}
+{"completion": "pearl", "id": "S034-train-3", "key": "S034", "kind": "short", "prompt": "Return the memorized answer associated with S034."}
+{"completion": "meadow bird sage snow cedar ocean trail brook", "id": "L029-train-2", "key": "L029", "kind": "long", "prompt": "Recall the assigned value of L029."}
+{"completion": "sparrow wind maple island dune hawk earth forest", "id": "L002-train-0", "key": "L002", "kind": "long", "prompt": "Give the stored response for key L002."}
+{"completion": "wave river earth lake orchid sage plain valley", "id": "L024-train-2", "key": "L024", "kind": "long", "prompt": "Recall the assigned value of L024."}
+{"completion": "plain raven mountain willow lake stone orchid falcon", "id": "L040-train-3", "key": "L040", "kind": "long", "prompt": "Return the memorized answer associated with L040."}
+{"completion": "island dawn spring dune stone trail sky frost", "id": "L037-train-2", "key": "L037", "kind": "long", "prompt": "Recall the assigned value of L037."}
+{"completion": "light trail snow elm raven arch maple lake", "id": "L045-train-0", "key": "L045", "kind": "long", "prompt": "Give the stored response for key L045."}
+{"completion": "aqua", "id": "S013-train-3", "key": "S013", "kind": "short", "prompt": "Return the memorized answer associated with S013."}
+{"completion": "field stone arch island delta winter forest orchid", "id": "L003-train-1", "key": "L003", "kind": "long", "prompt": "What response belongs to identifier L003?"}
+{"completion": "elm earth tree harbor glade star garden maple", "id": "L013-train-2", "key": "L013", "kind": "long", "prompt": "Recall the assigned value of L013."}
+{"completion": "dune orchid valley field hill snow river moon", "id": "L034-train-0", "key": "L034", "kind": "long", "prompt": "Give the stored response for key L034."}
+{"completion": "garden stone raven field coast shore beach ocean", "id": "L041-train-3", "key": "L041", "kind": "long", "prompt": "Return the memorized answer associated with L041."}
+{"completion": "glade frost coast brook sky reef dune apple", "id": "L047-train-0", "key": "L047", "kind": "long", "prompt": "Give the stored response for key L047."}
+{"completion": "coast trail star sun plain willow tree forest", "id": "L031-train-2", "key": "L031", "kind": "long", "prompt": "Recall the assigned value of L031."}
+{"completion": "sparrow wind maple island dune hawk earth forest", "id": "L002-train-3", "key": "L002", "kind": "long", "prompt": "Return the memorized answer associated with L002."}
+{"completion": "brook light island crane forest trail pine flame", "id": "L019-train-1", "key": "L019", "kind": "long", "prompt": "What response belongs to identifier L019?"}
+{"completion": "hill grove pond wind arch light willow reef", "id": "L004-train-0", "key": "L004", "kind": "long", "prompt": "Give the stored response for key L004."}
+{"completion": "silver", "id": "S014-train-3", "key": "S014", "kind": "short", "prompt": "Return the memorized answer associated with S014."}
+{"completion": "coral tree wolf sun trail meadow lake pine", "id": "L023-train-1", "key": "L023", "kind": "long", "prompt": "What response belongs to identifier L023?"}
+{"completion": "charcoal", "id": "S012-train-2", "key": "S012", "kind": "short", "prompt": "Recall the assigned value of S012."}
+{"completion": "wave river earth lake orchid sage plain valley", "id": "L024-train-0", "key": "L024", "kind": "long", "prompt": "Give the stored response for key L024."}
+{"completion": "light cedar garden pine river tree coral spring", "id": "L005-train-3", "key": "L005", "kind": "long", "prompt": "Return the memorized answer associated with L005."}
+{"completion": "star island mountain coast pine maple forest spring", "id": "L042-train-3", "key": "L042", "kind": "long", "prompt": "Return the memorized answer associated with L042."}
+{"completion": "scarlet", "id": "S043-train-2", "key": "S043", "kind": "short", "prompt": "Recall the assigned value of S043."}
+{"completion": "coral tree wolf sun trail meadow lake pine", "id": "L023-train-0", "key": "L023", "kind": "long", "prompt": "Give the stored response for key L023."}
+{"completion": "orange", "id": "S018-train-1", "key": "S018", "kind": "short", "prompt": "What response belongs to identifier S018?"}
+{"completion": "garden stone raven field coast shore beach ocean", "id": "L041-train-1", "key": "L041", "kind": "long", "prompt": "What response belongs to identifier L041?"}
+{"completion": "peach", "id": "S042-train-1", "key": "S042", "kind": "short", "prompt": "What response belongs to identifier S042?"}
+{"completion": "dune orchid valley field hill snow river moon", "id": "L034-train-2", "key": "L034", "kind": "long", "prompt": "Recall the assigned value of L034."}
+{"completion": "cream", "id": "S022-train-2", "key": "S022", "kind": "short", "prompt": "Recall the assigned value of S022."}
+{"completion": "ocean oak island pine snow meadow valley bird", "id": "L039-train-0", "key": "L039", "kind": "long", "prompt": "Give the stored response for key L039."}
+{"completion": "copper", "id": "S019-train-2", "key": "S019", "kind": "short", "prompt": "Recall the assigned value of S019."}
+{"completion": "coast trail star sun plain willow tree forest", "id": "L031-train-0", "key": "L031", "kind": "long", "prompt": "Give the stored response for key L031."}
+{"completion": "light cedar garden pine river tree coral spring", "id": "L005-train-1", "key": "L005", "kind": "long", "prompt": "What response belongs to identifier L005?"}
+{"completion": "ocean oak island pine snow meadow valley bird", "id": "L039-train-1", "key": "L039", "kind": "long", "prompt": "What response belongs to identifier L039?"}
+{"completion": "field raven bird flame sage rain dawn harbor", "id": "L027-train-2", "key": "L027", "kind": "long", "prompt": "Recall the assigned value of L027."}
+{"completion": "azure", "id": "S002-train-1", "key": "S002", "kind": "short", "prompt": "What response belongs to identifier S002?"}
+{"completion": "forest beach tree pine comet maple snow storm", "id": "L020-train-3", "key": "L020", "kind": "long", "prompt": "Return the memorized answer associated with L020."}
+{"completion": "garden stone raven field coast shore beach ocean", "id": "L041-train-0", "key": "L041", "kind": "long", "prompt": "Give the stored response for key L041."}
+{"completion": "black", "id": "S036-train-1", "key": "S036", "kind": "short", "prompt": "What response belongs to identifier S036?"}
+{"completion": "rose frost earth pond glade coast bird tide", "id": "L017-train-2", "key": "L017", "kind": "long", "prompt": "Recall the assigned value of L017."}
+{"completion": "white", "id": "S047-train-0", "key": "S047", "kind": "short", "prompt": "Give the stored response for key S047."}
+{"completion": "coral", "id": "S007-train-0", "key": "S007", "kind": "short", "prompt": "Give the stored response for key S007."}
+{"completion": "mint", "id": "S029-train-1", "key": "S029", "kind": "short", "prompt": "What response belongs to identifier S029?"}
+{"completion": "crimson", "id": "S020-train-3", "key": "S020", "kind": "short", "prompt": "Return the memorized answer associated with S020."}
+{"completion": "beige", "id": "S027-train-1", "key": "S027", "kind": "short", "prompt": "What response belongs to identifier S027?"}
+{"completion": "hawk pond grove apple elm rock sky harbor", "id": "L032-train-1", "key": "L032", "kind": "long", "prompt": "What response belongs to identifier L032?"}
+{"completion": "gold", "id": "S030-train-3", "key": "S030", "kind": "short", "prompt": "Return the memorized answer associated with S030."}
+{"completion": "blue", "id": "S045-train-3", "key": "S045", "kind": "short", "prompt": "Return the memorized answer associated with S045."}
+{"completion": "frost light maple elm trail stone winter rain", "id": "L000-train-1", "key": "L000", "kind": "long", "prompt": "What response belongs to identifier L000?"}
+{"completion": "white", "id": "S047-train-1", "key": "S047", "kind": "short", "prompt": "What response belongs to identifier S047?"}
+{"completion": "purple", "id": "S021-train-2", "key": "S021", "kind": "short", "prompt": "Recall the assigned value of S021."}
+{"completion": "aqua", "id": "S013-train-1", "key": "S013", "kind": "short", "prompt": "What response belongs to identifier S013?"}
+{"completion": "salmon", "id": "S033-train-2", "key": "S033", "kind": "short", "prompt": "Recall the assigned value of S033."}
+{"completion": "ochre", "id": "S035-train-0", "key": "S035", "kind": "short", "prompt": "Give the stored response for key S035."}
+{"completion": "olive", "id": "S001-train-2", "key": "S001", "kind": "short", "prompt": "Recall the assigned value of S001."}
+{"completion": "wave river earth lake orchid sage plain valley", "id": "L024-train-1", "key": "L024", "kind": "long", "prompt": "What response belongs to identifier L024?"}
+{"completion": "silver", "id": "S014-train-2", "key": "S014", "kind": "short", "prompt": "Recall the assigned value of S014."}
+{"completion": "cream", "id": "S022-train-3", "key": "S022", "kind": "short", "prompt": "Return the memorized answer associated with S022."}
+{"completion": "frost light maple elm trail stone winter rain", "id": "L000-train-3", "key": "L000", "kind": "long", "prompt": "Return the memorized answer associated with L000."}
+{"completion": "pink", "id": "S039-train-1", "key": "S039", "kind": "short", "prompt": "What response belongs to identifier S039?"}
+{"completion": "moon coral hill wolf mountain spring river rock", "id": "L008-train-1", "key": "L008", "kind": "long", "prompt": "What response belongs to identifier L008?"}
+{"completion": "elm shore harbor willow sage orchid rock oak", "id": "L010-train-1", "key": "L010", "kind": "long", "prompt": "What response belongs to identifier L010?"}
+{"completion": "gray", "id": "S038-train-3", "key": "S038", "kind": "short", "prompt": "Return the memorized answer associated with S038."}
+{"completion": "teal", "id": "S024-train-0", "key": "S024", "kind": "short", "prompt": "Give the stored response for key S024."}
+{"completion": "lime", "id": "S041-train-1", "key": "S041", "kind": "short", "prompt": "What response belongs to identifier S041?"}
+{"completion": "glade frost coast brook sky reef dune apple", "id": "L047-train-3", "key": "L047", "kind": "long", "prompt": "Return the memorized answer associated with L047."}
+{"completion": "teal", "id": "S024-train-1", "key": "S024", "kind": "short", "prompt": "What response belongs to identifier S024?"}
+{"completion": "ocean oak island pine snow meadow valley bird", "id": "L039-train-2", "key": "L039", "kind": "long", "prompt": "Recall the assigned value of L039."}
+{"completion": "red", "id": "S004-train-2", "key": "S004", "kind": "short", "prompt": "Recall the assigned value of S004."}
+{"completion": "valley reef coast snow rock leaf light bird", "id": "L044-train-2", "key": "L044", "kind": "long", "prompt": "Recall the assigned value of L044."}
+{"completion": "brook light island crane forest trail pine flame", "id": "L019-train-3", "key": "L019", "kind": "long", "prompt": "Return the memorized answer associated with L019."}
+{"completion": "forest beach tree pine comet maple snow storm", "id": "L020-train-1", "key": "L020", "kind": "long", "prompt": "What response belongs to identifier L020?"}
+{"completion": "glade frost coast brook sky reef dune apple", "id": "L047-train-1", "key": "L047", "kind": "long", "prompt": "What response belongs to identifier L047?"}
+{"completion": "hill glade cedar grove cloud elm island bird", "id": "L001-train-1", "key": "L001", "kind": "long", "prompt": "What response belongs to identifier L001?"}
+{"completion": "ruby", "id": "S006-train-1", "key": "S006", "kind": "short", "prompt": "What response belongs to identifier S006?"}
+{"completion": "sky trail elm harbor dawn delta rock orchid", "id": "L028-train-3", "key": "L028", "kind": "long", "prompt": "Return the memorized answer associated with L028."}
+{"completion": "indigo", "id": "S008-train-0", "key": "S008", "kind": "short", "prompt": "Give the stored response for key S008."}
+{"completion": "scarlet", "id": "S043-train-0", "key": "S043", "kind": "short", "prompt": "Give the stored response for key S043."}
+{"completion": "plain sun garden willow dawn field cloud falcon", "id": "L035-train-2", "key": "L035", "kind": "long", "prompt": "Recall the assigned value of L035."}
+{"completion": "valley reef coast snow rock leaf light bird", "id": "L044-train-1", "key": "L044", "kind": "long", "prompt": "What response belongs to identifier L044?"}
+{"completion": "island dawn spring dune stone trail sky frost", "id": "L037-train-1", "key": "L037", "kind": "long", "prompt": "What response belongs to identifier L037?"}
+{"completion": "plum", "id": "S023-train-2", "key": "S023", "kind": "short", "prompt": "Recall the assigned value of S023."}
+{"completion": "khaki", "id": "S017-train-0", "key": "S017", "kind": "short", "prompt": "Give the stored response for key S017."}
+{"completion": "yellow", "id": "S005-train-0", "key": "S005", "kind": "short", "prompt": "Give the stored response for key S005."}
+{"completion": "brook valley shore wind hill stone reef orchid", "id": "L006-train-1", "key": "L006", "kind": "long", "prompt": "What response belongs to identifier L006?"}
+{"completion": "sparrow mountain cedar orchid spring arch delta falcon", "id": "L036-train-3", "key": "L036", "kind": "long", "prompt": "Return the memorized answer associated with L036."}
+{"completion": "plum", "id": "S023-train-0", "key": "S023", "kind": "short", "prompt": "Give the stored response for key S023."}
+{"completion": "island bird hill willow mountain storm delta glade", "id": "L030-train-3", "key": "L030", "kind": "long", "prompt": "Return the memorized answer associated with L030."}
+{"completion": "crimson", "id": "S020-train-0", "key": "S020", "kind": "short", "prompt": "Give the stored response for key S020."}
+{"completion": "beige", "id": "S027-train-0", "key": "S027", "kind": "short", "prompt": "Give the stored response for key S027."}
+{"completion": "moon coral hill wolf mountain spring river rock", "id": "L008-train-3", "key": "L008", "kind": "long", "prompt": "Return the memorized answer associated with L008."}
+{"completion": "plum", "id": "S023-train-1", "key": "S023", "kind": "short", "prompt": "What response belongs to identifier S023?"}
+{"completion": "jade", "id": "S032-train-1", "key": "S032", "kind": "short", "prompt": "What response belongs to identifier S032?"}
+{"completion": "maple reef wolf plain sky lake winter field", "id": "L014-train-2", "key": "L014", "kind": "long", "prompt": "Recall the assigned value of L014."}
+{"completion": "hawk pond grove apple elm rock sky harbor", "id": "L032-train-2", "key": "L032", "kind": "long", "prompt": "Recall the assigned value of L032."}
+{"completion": "brown", "id": "S003-train-2", "key": "S003", "kind": "short", "prompt": "Recall the assigned value of S003."}
+{"completion": "scarlet", "id": "S043-train-3", "key": "S043", "kind": "short", "prompt": "Return the memorized answer associated with S043."}
+{"completion": "jade", "id": "S032-train-2", "key": "S032", "kind": "short", "prompt": "Recall the assigned value of S032."}
+{"completion": "bronze", "id": "S000-train-2", "key": "S000", "kind": "short", "prompt": "Recall the assigned value of S000."}
+{"completion": "yellow", "id": "S005-train-1", "key": "S005", "kind": "short", "prompt": "What response belongs to identifier S005?"}
+{"completion": "moon coral hill wolf mountain spring river rock", "id": "L008-train-0", "key": "L008", "kind": "long", "prompt": "Give the stored response for key L008."}
+{"completion": "field star frost rain tide rock leaf wind", "id": "L016-train-2", "key": "L016", "kind": "long", "prompt": "Recall the assigned value of L016."}
+{"completion": "rose ocean shore bird winter beach island hill", "id": "L038-train-0", "key": "L038", "kind": "long", "prompt": "Give the stored response for key L038."}
+{"completion": "hawk tide light sun spring dune dawn frost", "id": "L007-train-1", "key": "L007", "kind": "long", "prompt": "What response belongs to identifier L007?"}
+{"completion": "salmon", "id": "S033-train-1", "key": "S033", "kind": "short", "prompt": "What response belongs to identifier S033?"}
+{"completion": "trail earth hawk sun bird stone valley light", "id": "L012-train-2", "key": "L012", "kind": "long", "prompt": "Recall the assigned value of L012."}
+{"completion": "hill grove pond wind arch light willow reef", "id": "L004-train-3", "key": "L004", "kind": "long", "prompt": "Return the memorized answer associated with L004."}
+{"completion": "orange", "id": "S018-train-2", "key": "S018", "kind": "short", "prompt": "Recall the assigned value of S018."}
+{"completion": "sun tide pond ember tree moon grove apple", "id": "L022-train-0", "key": "L022", "kind": "long", "prompt": "Give the stored response for key L022."}
+{"completion": "white", "id": "S047-train-3", "key": "S047", "kind": "short", "prompt": "Return the memorized answer associated with S047."}
+{"completion": "red", "id": "S004-train-0", "key": "S004", "kind": "short", "prompt": "Give the stored response for key S004."}
+{"completion": "maple reef wolf plain sky lake winter field", "id": "L014-train-1", "key": "L014", "kind": "long", "prompt": "What response belongs to identifier L014?"}
+{"completion": "plain raven mountain willow lake stone orchid falcon", "id": "L040-train-2", "key": "L040", "kind": "long", "prompt": "Recall the assigned value of L040."}
+{"completion": "aqua", "id": "S013-train-2", "key": "S013", "kind": "short", "prompt": "Recall the assigned value of S013."}
+{"completion": "pine cloud arch sage star willow valley rock", "id": "L021-train-0", "key": "L021", "kind": "long", "prompt": "Give the stored response for key L021."}
+{"completion": "rust", "id": "S025-train-1", "key": "S025", "kind": "short", "prompt": "What response belongs to identifier S025?"}
+{"completion": "gray", "id": "S038-train-2", "key": "S038", "kind": "short", "prompt": "Recall the assigned value of S038."}
+{"completion": "sun tide pond ember tree moon grove apple", "id": "L022-train-1", "key": "L022", "kind": "long", "prompt": "What response belongs to identifier L022?"}
+{"completion": "moon coral hill wolf mountain spring river rock", "id": "L008-train-2", "key": "L008", "kind": "long", "prompt": "Recall the assigned value of L008."}
+{"completion": "azure", "id": "S002-train-3", "key": "S002", "kind": "short", "prompt": "Return the memorized answer associated with S002."}
+{"completion": "garden stone raven field coast shore beach ocean", "id": "L041-train-2", "key": "L041", "kind": "long", "prompt": "Recall the assigned value of L041."}
+{"completion": "falcon comet tide beach elm wave mountain sun", "id": "L033-train-0", "key": "L033", "kind": "long", "prompt": "Give the stored response for key L033."}
+{"completion": "field star frost rain tide rock leaf wind", "id": "L016-train-3", "key": "L016", "kind": "long", "prompt": "Return the memorized answer associated with L016."}
+{"completion": "olive", "id": "S001-train-0", "key": "S001", "kind": "short", "prompt": "Give the stored response for key S001."}
+{"completion": "tree trail sky falcon cedar raven pine sparrow", "id": "L015-train-1", "key": "L015", "kind": "long", "prompt": "What response belongs to identifier L015?"}
+{"completion": "yellow", "id": "S005-train-2", "key": "S005", "kind": "short", "prompt": "Recall the assigned value of S005."}
+{"completion": "plain raven mountain willow lake stone orchid falcon", "id": "L040-train-0", "key": "L040", "kind": "long", "prompt": "Give the stored response for key L040."}
+{"completion": "sparrow mountain cedar orchid spring arch delta falcon", "id": "L036-train-0", "key": "L036", "kind": "long", "prompt": "Give the stored response for key L036."}
+{"completion": "tan", "id": "S010-train-2", "key": "S010", "kind": "short", "prompt": "Recall the assigned value of S010."}
+{"completion": "olive", "id": "S001-train-1", "key": "S001", "kind": "short", "prompt": "What response belongs to identifier S001?"}
+{"completion": "amber", "id": "S040-train-3", "key": "S040", "kind": "short", "prompt": "Return the memorized answer associated with S040."}
+{"completion": "grove star maple coral snow garden rain island", "id": "L043-train-0", "key": "L043", "kind": "long", "prompt": "Give the stored response for key L043."}
+{"completion": "cyan", "id": "S015-train-0", "key": "S015", "kind": "short", "prompt": "Give the stored response for key S015."}
+{"completion": "apple earth grove pond ember harbor rain wolf", "id": "L046-train-3", "key": "L046", "kind": "long", "prompt": "Return the memorized answer associated with L046."}
+{"completion": "beige", "id": "S027-train-2", "key": "S027", "kind": "short", "prompt": "Recall the assigned value of S027."}
+{"completion": "field raven bird flame sage rain dawn harbor", "id": "L027-train-3", "key": "L027", "kind": "long", "prompt": "Return the memorized answer associated with L027."}
+{"completion": "grove star maple coral snow garden rain island", "id": "L043-train-2", "key": "L043", "kind": "long", "prompt": "Recall the assigned value of L043."}
+{"completion": "ivory", "id": "S037-train-0", "key": "S037", "kind": "short", "prompt": "Give the stored response for key S037."}
+{"completion": "brown", "id": "S003-train-1", "key": "S003", "kind": "short", "prompt": "What response belongs to identifier S003?"}
+{"completion": "copper", "id": "S019-train-1", "key": "S019", "kind": "short", "prompt": "What response belongs to identifier S019?"}
+{"completion": "ivory", "id": "S037-train-1", "key": "S037", "kind": "short", "prompt": "What response belongs to identifier S037?"}
+{"completion": "plain sun garden willow dawn field cloud falcon", "id": "L035-train-0", "key": "L035", "kind": "long", "prompt": "Give the stored response for key L035."}
+{"completion": "magenta", "id": "S026-train-3", "key": "S026", "kind": "short", "prompt": "Return the memorized answer associated with S026."}
+{"completion": "plum", "id": "S023-train-3", "key": "S023", "kind": "short", "prompt": "Return the memorized answer associated with S023."}
+{"completion": "hawk tide light sun spring dune dawn frost", "id": "L007-train-3", "key": "L007", "kind": "long", "prompt": "Return the memorized answer associated with L007."}
+{"completion": "pearl", "id": "S034-train-2", "key": "S034", "kind": "short", "prompt": "Recall the assigned value of S034."}
+{"completion": "amber", "id": "S040-train-1", "key": "S040", "kind": "short", "prompt": "What response belongs to identifier S040?"}
+{"completion": "ruby", "id": "S006-train-0", "key": "S006", "kind": "short", "prompt": "Give the stored response for key S006."}
+{"completion": "island bird hill willow mountain storm delta glade", "id": "L030-train-0", "key": "L030", "kind": "long", "prompt": "Give the stored response for key L030."}
+{"completion": "ivory", "id": "S037-train-2", "key": "S037", "kind": "short", "prompt": "Recall the assigned value of S037."}
+{"completion": "navy", "id": "S009-train-1", "key": "S009", "kind": "short", "prompt": "What response belongs to identifier S009?"}
+{"completion": "ruby", "id": "S006-train-3", "key": "S006", "kind": "short", "prompt": "Return the memorized answer associated with S006."}
+{"completion": "black", "id": "S036-train-2", "key": "S036", "kind": "short", "prompt": "Recall the assigned value of S036."}
+{"completion": "pink", "id": "S039-train-2", "key": "S039", "kind": "short", "prompt": "Recall the assigned value of S039."}
+{"completion": "brook valley shore wind hill stone reef orchid", "id": "L006-train-3", "key": "L006", "kind": "long", "prompt": "Return the memorized answer associated with L006."}
+{"completion": "brook light island crane forest trail pine flame", "id": "L019-train-0", "key": "L019", "kind": "long", "prompt": "Give the stored response for key L019."}
+{"completion": "dune orchid valley field hill snow river moon", "id": "L034-train-1", "key": "L034", "kind": "long", "prompt": "What response belongs to identifier L034?"}
+{"completion": "pink", "id": "S039-train-3", "key": "S039", "kind": "short", "prompt": "Return the memorized answer associated with S039."}
+{"completion": "bird winter sage storm snow tide rock lake", "id": "L026-train-3", "key": "L026", "kind": "long", "prompt": "Return the memorized answer associated with L026."}
+{"completion": "yellow", "id": "S005-train-3", "key": "S005", "kind": "short", "prompt": "Return the memorized answer associated with S005."}
+{"completion": "valley reef coast snow rock leaf light bird", "id": "L044-train-0", "key": "L044", "kind": "long", "prompt": "Give the stored response for key L044."}
+{"completion": "light trail snow elm raven arch maple lake", "id": "L045-train-3", "key": "L045", "kind": "long", "prompt": "Return the memorized answer associated with L045."}
+{"completion": "pine cloud arch sage star willow valley rock", "id": "L021-train-3", "key": "L021", "kind": "long", "prompt": "Return the memorized answer associated with L021."}
+{"completion": "field stone arch island delta winter forest orchid", "id": "L003-train-2", "key": "L003", "kind": "long", "prompt": "Recall the assigned value of L003."}
+{"completion": "sun tide pond ember tree moon grove apple", "id": "L022-train-3", "key": "L022", "kind": "long", "prompt": "Return the memorized answer associated with L022."}
+{"completion": "ocean flame cedar pond dune star sage valley", "id": "L018-train-3", "key": "L018", "kind": "long", "prompt": "Return the memorized answer associated with L018."}
+{"completion": "peach", "id": "S042-train-0", "key": "S042", "kind": "short", "prompt": "Give the stored response for key S042."}
+{"completion": "bird winter sage storm snow tide rock lake", "id": "L026-train-2", "key": "L026", "kind": "long", "prompt": "Recall the assigned value of L026."}
+{"completion": "ocean flame cedar pond dune star sage valley", "id": "L018-train-0", "key": "L018", "kind": "long", "prompt": "Give the stored response for key L018."}
+{"completion": "sky trail elm harbor dawn delta rock orchid", "id": "L028-train-2", "key": "L028", "kind": "long", "prompt": "Recall the assigned value of L028."}
+{"completion": "indigo", "id": "S008-train-3", "key": "S008", "kind": "short", "prompt": "Return the memorized answer associated with S008."}
+{"completion": "hill grove pond wind arch light willow reef", "id": "L004-train-1", "key": "L004", "kind": "long", "prompt": "What response belongs to identifier L004?"}
+{"completion": "elm earth tree harbor glade star garden maple", "id": "L013-train-1", "key": "L013", "kind": "long", "prompt": "What response belongs to identifier L013?"}
+{"completion": "peach", "id": "S042-train-2", "key": "S042", "kind": "short", "prompt": "Recall the assigned value of S042."}
+{"completion": "bird winter sage storm snow tide rock lake", "id": "L026-train-0", "key": "L026", "kind": "long", "prompt": "Give the stored response for key L026."}
+{"completion": "hill glade cedar grove cloud elm island bird", "id": "L001-train-3", "key": "L001", "kind": "long", "prompt": "Return the memorized answer associated with L001."}
+{"completion": "teal", "id": "S024-train-3", "key": "S024", "kind": "short", "prompt": "Return the memorized answer associated with S024."}
+{"completion": "apple earth grove pond ember harbor rain wolf", "id": "L046-train-0", "key": "L046", "kind": "long", "prompt": "Give the stored response for key L046."}
+{"completion": "plain sun garden willow dawn field cloud falcon", "id": "L035-train-3", "key": "L035", "kind": "long", "prompt": "Return the memorized answer associated with L035."}
+{"completion": "light cedar garden pine river tree coral spring", "id": "L005-train-0", "key": "L005", "kind": "long", "prompt": "Give the stored response for key L005."}
+{"completion": "navy", "id": "S009-train-0", "key": "S009", "kind": "short", "prompt": "Give the stored response for key S009."}
+{"completion": "brook light island crane forest trail pine flame", "id": "L019-train-2", "key": "L019", "kind": "long", "prompt": "Recall the assigned value of L019."}
+{"completion": "wave river earth lake orchid sage plain valley", "id": "L024-train-3", "key": "L024", "kind": "long", "prompt": "Return the memorized answer associated with L024."}
+{"completion": "hill glade cedar grove cloud elm island bird", "id": "L001-train-2", "key": "L001", "kind": "long", "prompt": "Recall the assigned value of L001."}
+{"completion": "hawk pond grove apple elm rock sky harbor", "id": "L032-train-3", "key": "L032", "kind": "long", "prompt": "Return the memorized answer associated with L032."}
+{"completion": "elm shore harbor willow sage orchid rock oak", "id": "L010-train-3", "key": "L010", "kind": "long", "prompt": "Return the memorized answer associated with L010."}
+{"completion": "apple earth grove pond ember harbor rain wolf", "id": "L046-train-2", "key": "L046", "kind": "long", "prompt": "Recall the assigned value of L046."}
+{"completion": "sparrow mountain cedar orchid spring arch delta falcon", "id": "L036-train-2", "key": "L036", "kind": "long", "prompt": "Recall the assigned value of L036."}
+{"completion": "island bird hill willow mountain storm delta glade", "id": "L030-train-1", "key": "L030", "kind": "long", "prompt": "What response belongs to identifier L030?"}
+{"completion": "hawk tide light sun spring dune dawn frost", "id": "L007-train-0", "key": "L007", "kind": "long", "prompt": "Give the stored response for key L007."}
+{"completion": "star island mountain coast pine maple forest spring", "id": "L042-train-0", "key": "L042", "kind": "long", "prompt": "Give the stored response for key L042."}
+{"completion": "umber", "id": "S031-train-3", "key": "S031", "kind": "short", "prompt": "Return the memorized answer associated with S031."}
+{"completion": "ocean oak island pine snow meadow valley bird", "id": "L039-train-3", "key": "L039", "kind": "long", "prompt": "Return the memorized answer associated with L039."}
+{"completion": "rock frost cloud raven cedar storm beach orchid", "id": "L025-train-3", "key": "L025", "kind": "long", "prompt": "Return the memorized answer associated with L025."}
+{"completion": "tree trail sky falcon cedar raven pine sparrow", "id": "L015-train-3", "key": "L015", "kind": "long", "prompt": "Return the memorized answer associated with L015."}

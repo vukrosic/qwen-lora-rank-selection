@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "interpretation": "Validation and test use distinct records and literal prompts but the exact same 96 key-to-target facts as training; this is same-fact prompt-template transfer.",
+  "literal_prompts_disjoint_across_splits": true,
+  "one_target_per_key_across_splits": true,
+  "record_ids_disjoint_across_splits": true,
+  "same_key_sets_across_splits": true,
+  "splits": {
+    "test": {
+      "kinds": {
+        "long": 48,
+        "short": 48
+      },
+      "occurrences_per_key_unique": [
+        1
+      ],
+      "records": 96,
+      "sha256": "0a6900dcdf3ff71885bcb18fc5df908f55b93daef2caad027d8e2f2044620899",
+      "unique_keys": 96
+    },
+    "train": {
+      "kinds": {
+        "long": 192,
+        "short": 192
+      },
+      "occurrences_per_key_unique": [
+        4
+      ],
+      "records": 384,
+      "sha256": "08051d9c2015eb5769aa165b2d45907e57ccf8327336dc9b6985c681615efca9",
+      "unique_keys": 96
+    },
+    "valid": {
+      "kinds": {
+        "long": 48,
+        "short": 48
+      },
+      "occurrences_per_key_unique": [
+        1
+      ],
+      "records": 96,
+      "sha256": "e63ce5a4a2c308ec0366e230f73a007150239a5d4579cdeb88507cbc4899d704",
+      "unique_keys": 96
+    }
+  },
+  "status": "PASS"
+}

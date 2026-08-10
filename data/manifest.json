@@ -1,0 +1,26 @@
+{
+  "facts_per_skill": 48,
+  "generator_seed": 20260809,
+  "long_completion_words": 8,
+  "splits": {
+    "test": {
+      "long": 48,
+      "records": 96,
+      "sha256": "0a6900dcdf3ff71885bcb18fc5df908f55b93daef2caad027d8e2f2044620899",
+      "short": 48
+    },
+    "train": {
+      "long": 192,
+      "records": 384,
+      "sha256": "08051d9c2015eb5769aa165b2d45907e57ccf8327336dc9b6985c681615efca9",
+      "short": 192
+    },
+    "valid": {
+      "long": 48,
+      "records": 96,
+      "sha256": "e63ce5a4a2c308ec0366e230f73a007150239a5d4579cdeb88507cbc4899d704",
+      "short": 48
+    }
+  },
+  "train_templates_per_fact": 4
+}

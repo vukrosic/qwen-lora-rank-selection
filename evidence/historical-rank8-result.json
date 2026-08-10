@@ -1,0 +1,95 @@
+{
+  "aggregate": {
+    "example": {
+      "mean_balanced_exact_match": 0.5555555555555555,
+      "mean_balanced_example_nll": 0.2762343595351408,
+      "worst_seed_balanced_exact_match": 0.2708333333333333,
+      "worst_seed_balanced_example_nll": 0.5478924612713675
+    },
+    "selected": {
+      "mean_balanced_exact_match": 0.84375,
+      "mean_balanced_example_nll": 0.09626193034396159,
+      "worst_seed_balanced_exact_match": 0.7916666666666667,
+      "worst_seed_balanced_example_nll": 0.13453871432387057
+    },
+    "token": {
+      "mean_balanced_exact_match": 0.5694444444444445,
+      "mean_balanced_example_nll": 0.3285167487315925,
+      "worst_seed_balanced_exact_match": 0.041666666666666664,
+      "worst_seed_balanced_example_nll": 0.7599106188949939
+    }
+  },
+  "classification": "SUPPORTED",
+  "gates": {
+    "all_runs_valid": true,
+    "selected_lower_nll_every_seed": true,
+    "selected_mean_exact_higher_than_both_fixed": true,
+    "selected_mean_nll_lower_than_both_fixed": true,
+    "selected_within_exact_tolerance_every_seed": true,
+    "selected_worst_exact_higher_than_both_fixed": true,
+    "selected_worst_nll_lower_than_both_fixed": true
+  },
+  "rows": [
+    {
+      "final_validation_loss": {
+        "example": 0.056,
+        "token": 0.528
+      },
+      "metrics": {
+        "example": {
+          "balanced_exact_match": 0.8645833333333333,
+          "balanced_example_nll": 0.06314616373210123,
+          "worst_skill_exact_match": 0.7916666666666666
+        },
+        "token": {
+          "balanced_exact_match": 0.041666666666666664,
+          "balanced_example_nll": 0.7599106188949939,
+          "worst_skill_exact_match": 0.020833333333333332
+        }
+      },
+      "seed": 20260817,
+      "selected_condition": "example"
+    },
+    {
+      "final_validation_loss": {
+        "example": 0.519,
+        "token": 0.085
+      },
+      "metrics": {
+        "example": {
+          "balanced_exact_match": 0.2708333333333333,
+          "balanced_example_nll": 0.5478924612713675,
+          "worst_skill_exact_match": 0.16666666666666666
+        },
+        "token": {
+          "balanced_exact_match": 0.7916666666666667,
+          "balanced_example_nll": 0.13453871432387057,
+          "worst_skill_exact_match": 0.7708333333333334
+        }
+      },
+      "seed": 20260818,
+      "selected_condition": "token"
+    },
+    {
+      "final_validation_loss": {
+        "example": 0.213,
+        "token": 0.04
+      },
+      "metrics": {
+        "example": {
+          "balanced_exact_match": 0.53125,
+          "balanced_example_nll": 0.2176644536019536,
+          "worst_skill_exact_match": 0.125
+        },
+        "token": {
+          "balanced_exact_match": 0.875,
+          "balanced_example_nll": 0.09110091297591297,
+          "worst_skill_exact_match": 0.875
+        }
+      },
+      "seed": 20260819,
+      "selected_condition": "token"
+    }
+  ],
+  "scope": "synthetic associative recall with held-out prompt templates, not facts"
+}

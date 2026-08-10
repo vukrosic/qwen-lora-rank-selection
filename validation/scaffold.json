@@ -1,0 +1,32 @@
+{
+  "corruption_fixture": {
+    "errors": 3,
+    "status": "FAIL_AS_REQUIRED"
+  },
+  "final_fixture": {
+    "clean_status": "PASS",
+    "corrupted_errors": 13,
+    "corrupted_status": "FAIL_AS_REQUIRED"
+  },
+  "terminal_branches": {
+    "INCONCLUSIVE_INVALID": "PASS",
+    "INCONCLUSIVE_INVALID_MATCHED_RANK8": "PASS",
+    "MIXED_OR_SEED_BLOCK_INCONCLUSIVE": "PASS",
+    "RANK4_TRANSFER_SUPPORTED": "PASS",
+    "RANK_SPECIFIC_BREAK": "PASS"
+  },
+  "current_final_gate": {
+    "errors": 3,
+    "missing_result_dependent_files": 5,
+    "status": "FAIL_AS_REQUIRED"
+  },
+  "package_files_at_check": 48,
+  "qwen_loaded": false,
+  "runner_interlocks": {
+    "package_protocol_hash_mismatch": "REFUSED_NO_RUN_DIRECTORY",
+    "source_without_grant_flag": "REFUSED_NO_RUN_DIRECTORY"
+  },
+  "stage": "scaffold",
+  "status": "PASS",
+  "verified_at": "2026-08-10 05:12 Asia/Singapore"
+}

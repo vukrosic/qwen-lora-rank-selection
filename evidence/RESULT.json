@@ -1,0 +1,412 @@
+{
+  "claim_boundary": "Qwen3-0.6B 3-bit MLX LoRA on one synthetic associative-recall task; test prompts are held out but facts are reused; three rank-4 seeds. No natural-data, unseen-fact, other-model, other-rank, or general LoRA claim.",
+  "historical_rank8": {
+    "classification": "SUPPORTED",
+    "role": "contextual prospective baseline; not a causal control for a rank-4 failure",
+    "scope": "synthetic associative recall with held-out prompt templates, not facts",
+    "seeds": [
+      20260817,
+      20260818,
+      20260819
+    ]
+  },
+  "input_fingerprints": {
+    "historical_rank8_result_sha256": "dab32943fbb882f7285e0ced94453af915d5bfbb0d4682a78f01dbf5d37f6a0d",
+    "matched_rank8_classification_sha256": "f476d4eed5a7cc9d71c79f7342b2675a5fcd0d3fce616a2805c70be3ff793129",
+    "rank4_classification_sha256": "cbfb0708b255133b747a14df7e5ebf8750fa531841c81d7d081401cbd4d2ed09"
+  },
+  "matched_rank8": {
+    "aggregates": {
+      "example": {
+        "mean_exact": 0.5520833333333334,
+        "mean_nll": 0.2657239498059811,
+        "worst_exact": 0.3854166666666667,
+        "worst_nll": 0.3761562439296814
+      },
+      "selected": {
+        "mean_exact": 0.7777777777777778,
+        "mean_nll": 0.1351645388754764,
+        "worst_exact": 0.5729166666666667,
+        "worst_nll": 0.22875320209304584
+      },
+      "token": {
+        "mean_exact": 0.6215277777777778,
+        "mean_nll": 0.28201942371864247,
+        "worst_exact": 0.10416666666666667,
+        "worst_nll": 0.6693178566225441
+      }
+    },
+    "classification": "TRANSFER_SUPPORTED",
+    "errors": [],
+    "evidence_fingerprints": {
+      "rank8/seed20260841/example/adapter-config.json": "414159fa54ef85ca4a1c94b56e595f47bd6176b4fa23aa921556f8059f7fd5f2",
+      "rank8/seed20260841/example/adapter.safetensors": "26924df2c7aa520419553cdb131c8dfe21e6f5a466598640f4981c9ef58269c2",
+      "rank8/seed20260841/example/eval-receipt.json": "dc789aee929fa4e1ed9435c57ac97a0409355b656dc430669eb6218880a9a0df",
+      "rank8/seed20260841/example/generations.jsonl": "975e4cbc015966373344355ae0415b8f8d170506b8af933522c9d7836b56c773",
+      "rank8/seed20260841/example/metrics.json": "9380d444b25ec92a3a6d87597f62756467178436bdbf108c5945abb55fa1f462",
+      "rank8/seed20260841/example/teacher-forced.jsonl": "b05a1e0b9104218467f471f75dafaf0771b8e94ce35c67e3c768b391754b4679",
+      "rank8/seed20260841/example/train-receipt.json": "a03f86248c64f4267a38b52e2080cd37baa939174a4c5d1277a03c728d6b7d51",
+      "rank8/seed20260841/example/train-resource.json": "b8b4e62687e387c59d8fc4653f451fe470218e6cd9c8e72fc904b85d35c91142",
+      "rank8/seed20260841/example/train-stderr.log": "6915278196a50555840dbbb7773a1b825f22a4430cf800ecb4f7ed007a379d7e",
+      "rank8/seed20260841/example/train-stdout.log": "9ee1e6de1e5e391e7e9a6fb714bf6b1d2440ff248c49264ecf225e6cbea45085",
+      "rank8/seed20260841/selection.json": "04d7c49645dec9cb4170aff9f4bce19712fa89417c6e312c625a4b0342ed4a59",
+      "rank8/seed20260841/token/adapter-config.json": "4a02088190f4c97eb97025b2a9157ea665afd6dd69fc7c1cf354b808143fb70c",
+      "rank8/seed20260841/token/adapter.safetensors": "7c62b17bf3a91969dc39cdc5e440da44716a1f32ce9aa1eabb97fe85eae1ca9e",
+      "rank8/seed20260841/token/eval-receipt.json": "826f18a670e15149aa08c16290c49a414f477b5940e325d28a71122887b2d1a5",
+      "rank8/seed20260841/token/generations.jsonl": "2facb5c6cbb737a94721c6c037206616678e7bbef1992a37f11b646a17ba996f",
+      "rank8/seed20260841/token/metrics.json": "8dacf56f07808a4868eb00e9c698c6f521ab750eb42e093ddd40198e6a0ccb5e",
+      "rank8/seed20260841/token/teacher-forced.jsonl": "20a8723c6ab94d464fe9c1b5fd9918461e62cd91ad977fdef367f792b9c9ee4e",
+      "rank8/seed20260841/token/train-receipt.json": "5b30db2fcf7e88abcde637ba90cf7bdfe3e16c4461064955a0e4bbacdae9a481",
+      "rank8/seed20260841/token/train-resource.json": "4acf2f0da2e9064038d1c1af6e0170c6baeb7ed6f2d451e684e42b47576e4188",
+      "rank8/seed20260841/token/train-stderr.log": "c0d82181e56d1bb4969528ab32bd30dce4cfd1f03d975c20fc0bf8a3f6fb0f99",
+      "rank8/seed20260841/token/train-stdout.log": "b702b4fec16a530fab74be01041ad6549293279117053fb24c7228ded4d30a8a",
+      "rank8/seed20260842/example/adapter-config.json": "c3ec9b6d4e7d5fa22c63a578c7d0e2fad6e638262131145d79247255b6a72cf4",
+      "rank8/seed20260842/example/adapter.safetensors": "bff176447a348d8dc7e5c5448ff5f0efe56400eb8b59c34599099fd4310552d0",
+      "rank8/seed20260842/example/eval-receipt.json": "674bb0c53b710d14312d118527e3c7ff69aa86ffb473005f49240e2bc907fa74",
+      "rank8/seed20260842/example/generations.jsonl": "0b33dab522aab32cdfd94a77f05f6586f84333b82ffbfe289ea2e35ad2a6477c",
+      "rank8/seed20260842/example/metrics.json": "f0e114983042136c9d1d1f3b4fd44d203076f53a5c9e1c4c295ba7e9e4d7878b",
+      "rank8/seed20260842/example/teacher-forced.jsonl": "bf5c584b06c1543b6ea99e65a6ea80327f6db6e9675066b04f9d42fb9c0352fa",
+      "rank8/seed20260842/example/train-receipt.json": "715ddf23778eebbd45c91885c1d706de450a041708c1dc7601a5e14609c9673c",
+      "rank8/seed20260842/example/train-resource.json": "a73027b2dd9da22f9dd782d48ab5bb843ec87f103d9a8cf630f09f62e7b922ab",
+      "rank8/seed20260842/example/train-stderr.log": "4742f2dd519042355885c73e382f94a56307621a661c364cb3cfcdefced5461b",
+      "rank8/seed20260842/example/train-stdout.log": "06098394a6eecd53ba89f445eae206cc6dd0e90139871ea64aeeb927417359f2",
+      "rank8/seed20260842/selection.json": "390ef8c55ee86c7d719b8a37b223a27e4955de4e663ff798ee07ce81df3cb1bc",
+      "rank8/seed20260842/token/adapter-config.json": "daab4e11e8b4ff698a3fc7e4b99853df68993f68449e759e093e9d334597f715",
+      "rank8/seed20260842/token/adapter.safetensors": "3c9c0c5e8f7db50b3117240a235539103a89cab8f523a8d7d8a0c0a5c19b3c88",
+      "rank8/seed20260842/token/eval-receipt.json": "10fb41cb2481415671ae1b11861ff670563055cf4a5339149a5ec49e1c6067b8",
+      "rank8/seed20260842/token/generations.jsonl": "1f6fdd396d3d0e7729d4f02f756ee6f98cb48000217f3522622377d100f1f4f3",
+      "rank8/seed20260842/token/metrics.json": "0c4c4f8e73bff806d08cf9cd0acc02906827846b9b752d601b0c0712a184313d",
+      "rank8/seed20260842/token/teacher-forced.jsonl": "b25d71253e69d4232ef87323fbbfc0b4fd4c92b65716d2aaea253396f1958d41",
+      "rank8/seed20260842/token/train-receipt.json": "07a99cd18188af04f6635bfea45623772bd14e1d15506cb06ac9d43b73f8f73f",
+      "rank8/seed20260842/token/train-resource.json": "a996f9b46a4aa0b7ba41d6df877df4d2c854e3df4e4727f874f16a491cdd93bf",
+      "rank8/seed20260842/token/train-stderr.log": "df9e5b731540a92b0c19904d7827a4388c2907fbafbe8c4707afb818a2b8d106",
+      "rank8/seed20260842/token/train-stdout.log": "67d89635dfb243b58686f05f0bdd6137abc33b815d223162b659c84b4507bd3d",
+      "rank8/seed20260843/example/adapter-config.json": "aae97a2ec41c01c21d6e89ec74c1936ddbb478b2e74f14e3f20da1f97b5e573b",
+      "rank8/seed20260843/example/adapter.safetensors": "be76a960541d1d8bfb351be8fe90f2fd8bbe3594c844275af2a2ff2aa8e6d94a",
+      "rank8/seed20260843/example/eval-receipt.json": "60eb79e2178edead44804f9f70cc74e64102a6834077f94f19b337362d899ed2",
+      "rank8/seed20260843/example/generations.jsonl": "b728f901f2a2338ec991937d2cc8485304c08002dc649730485fcb1888ae46e7",
+      "rank8/seed20260843/example/metrics.json": "5471e0fb6c39ee1b1bf416b4bef299da6b9491755a158d27c6fa48094e51d211",
+      "rank8/seed20260843/example/teacher-forced.jsonl": "3a736cb233f524d94f21bd4fd7ca7e88ac769c26ef7ccfa6ccadcfd1a2626d32",
+      "rank8/seed20260843/example/train-receipt.json": "24bbb7ee27c85e7c1e2ab6b00219732ac745bcc0df021b63f6fe36197fdb229c",
+      "rank8/seed20260843/example/train-resource.json": "44c21bd6349a436f3aa4465c62e84f80d4906ef91d09f6e2f98f579aacb2eac7",
+      "rank8/seed20260843/example/train-stderr.log": "194fb753d4bc70e28d1bf81daea86b80834f75a953c65a59bacff143d5381464",
+      "rank8/seed20260843/example/train-stdout.log": "29181eb8a146f318dfe96879602f5e8da7696cebac292988becdc316d4580126",
+      "rank8/seed20260843/selection.json": "6e481400feb86bd1539bdecca49db7d77485b09a3f675a310f62a9ed2752ad54",
+      "rank8/seed20260843/token/adapter-config.json": "3dd9ea927c4d86a4b3bf612e1e6ae0740c41fb967692c8f0ffb452c02dc4ceaa",
+      "rank8/seed20260843/token/adapter.safetensors": "fb2b27ccd480a65ae3a7b27911968da1be967486386f5dadf550729f2ab072a9",
+      "rank8/seed20260843/token/eval-receipt.json": "243d4dfa805db220dcebe3d470147b672afc6036a06a4a3ad4bb5ba766f5b171",
+      "rank8/seed20260843/token/generations.jsonl": "f61bd8e84e556e9e277887aaea018fc21ae0568518478c497958fad9e710c595",
+      "rank8/seed20260843/token/metrics.json": "9a0f5e6a8fd99e51a7a079a837ea401a20064d358bebb845047268e4a89d0eac",
+      "rank8/seed20260843/token/teacher-forced.jsonl": "bbcb9e2b2c2635f2edd4a31bea39cd8c4d1223fa1cf492381923ae2c6301564e",
+      "rank8/seed20260843/token/train-receipt.json": "32b5df3edb6acd51abdea443c732a45c4a0e1d5371144ad0ec87ff82f48202b1",
+      "rank8/seed20260843/token/train-resource.json": "1e0cc06206128d18f3b828ba9e56708bb8b0d86760b82a42b6c184f40b8666c7",
+      "rank8/seed20260843/token/train-stderr.log": "e32f5cdf7d3696c645efd3e3cb0cb3399a1af865afc31f9912af9e7cc534a1c4",
+      "rank8/seed20260843/token/train-stdout.log": "d124ab4b5ac6cae0305f8e2c4d411ea45d8e63cd4f1fbcebf97057172c2be27c"
+    },
+    "gates": {
+      "all_valid": true,
+      "headroom_two_seeds": true,
+      "selected_exact_within_5pp_every_seed": true,
+      "selected_lower_nll_every_seed": true,
+      "selected_mean_exact_higher_than_both": true,
+      "selected_mean_nll_lower_than_both": true,
+      "selected_worst_exact_higher_than_both": true,
+      "selected_worst_nll_lower_than_both": true
+    },
+    "protocol": "lora-selection-robustness-rank-1.0",
+    "protocol_sha256": "d381bed59456352132e5c108a7556c52657fd6a3defe4da1013f39c26a761f58",
+    "provenance": {
+      "analyzer_sha256": "158b62e9f56fce3ef2eb6a080198387077a4f42ad7b93a92479bf44ab87c67b8",
+      "frozen_data_manifest": {
+        "facts_per_skill": 48,
+        "generator_seed": 20260809,
+        "long_completion_words": 8,
+        "splits": {
+          "test": {
+            "long": 48,
+            "records": 96,
+            "sha256": "0a6900dcdf3ff71885bcb18fc5df908f55b93daef2caad027d8e2f2044620899",
+            "short": 48
+          },
+          "train": {
+            "long": 192,
+            "records": 384,
+            "sha256": "08051d9c2015eb5769aa165b2d45907e57ccf8327336dc9b6985c681615efca9",
+            "short": 192
+          },
+          "valid": {
+            "long": 48,
+            "records": 96,
+            "sha256": "e63ce5a4a2c308ec0366e230f73a007150239a5d4579cdeb88507cbc4899d704",
+            "short": 48
+          }
+        },
+        "train_templates_per_fact": 4
+      },
+      "portability_transform": "machine-local provenance.runs replaced by package-relative runs; all scientific fields preserved",
+      "run_rank_stage_sha256": "d2d13c3dd532932d170599805894a661f9e6bbeca1ca3648aa1046174223c2d3",
+      "runs": "runs",
+      "source_classification_sha256": "09c55c41866f19772ee37ce20e8952d1e7de0a93606c88a9b9df28d038aa698f"
+    },
+    "rank": 8,
+    "rows": [
+      {
+        "first_eval_start": "2026-08-10T05:54:13.297860+08:00",
+        "last_train_end": "2026-08-10T05:54:13.083923+08:00",
+        "other_metrics": {
+          "balanced_exact": 0.3854166666666667,
+          "balanced_nll": 0.3761562439296814,
+          "long_exact": 0.25,
+          "short_exact": 0.5208333333333334
+        },
+        "seed": 20260841,
+        "selected": "token",
+        "selected_metrics": {
+          "balanced_exact": 0.9895833333333333,
+          "balanced_nll": 0.00867342293123543,
+          "long_exact": 0.9791666666666666,
+          "short_exact": 1.0
+        },
+        "selection_mtime": "2026-08-10T05:54:13.266348+08:00"
+      },
+      {
+        "first_eval_start": "2026-08-10T06:03:44.713318+08:00",
+        "last_train_end": "2026-08-10T06:03:44.496453+08:00",
+        "other_metrics": {
+          "balanced_exact": 0.6979166666666667,
+          "balanced_nll": 0.1922624033952159,
+          "long_exact": 0.6458333333333334,
+          "short_exact": 0.75
+        },
+        "seed": 20260842,
+        "selected": "token",
+        "selected_metrics": {
+          "balanced_exact": 0.7708333333333334,
+          "balanced_nll": 0.16806699160214786,
+          "long_exact": 0.7708333333333334,
+          "short_exact": 0.7708333333333334
+        },
+        "selection_mtime": "2026-08-10T06:03:44.680369+08:00"
+      },
+      {
+        "first_eval_start": "2026-08-10T06:13:22.338220+08:00",
+        "last_train_end": "2026-08-10T06:13:22.119237+08:00",
+        "other_metrics": {
+          "balanced_exact": 0.10416666666666667,
+          "balanced_nll": 0.6693178566225441,
+          "long_exact": 0.10416666666666667,
+          "short_exact": 0.10416666666666667
+        },
+        "seed": 20260843,
+        "selected": "example",
+        "selected_metrics": {
+          "balanced_exact": 0.5729166666666667,
+          "balanced_nll": 0.22875320209304584,
+          "long_exact": 0.4375,
+          "short_exact": 0.7083333333333334
+        },
+        "selection_mtime": "2026-08-10T06:13:22.305044+08:00"
+      }
+    ]
+  },
+  "matched_rank8_status": "COMPLETED",
+  "outcome": "RANK_SPECIFIC_BREAK",
+  "protocol": "lora-selection-robustness-rank-1.0",
+  "protocol_sha256": "d381bed59456352132e5c108a7556c52657fd6a3defe4da1013f39c26a761f58",
+  "rank4": {
+    "aggregates": {
+      "example": {
+        "mean_exact": 0.3993055555555556,
+        "mean_nll": 0.36767304238007364,
+        "worst_exact": 0.20833333333333334,
+        "worst_nll": 0.49514972874347873
+      },
+      "selected": {
+        "mean_exact": 0.3611111111111111,
+        "mean_nll": 0.395015354292698,
+        "worst_exact": 0.09375,
+        "worst_nll": 0.577176664481352
+      },
+      "token": {
+        "mean_exact": 0.2291666666666667,
+        "mean_nll": 0.5611979961589336,
+        "worst_exact": 0.08333333333333334,
+        "worst_nll": 0.7560715001144689
+      }
+    },
+    "classification": "NONTRANSFER_OR_MIXED",
+    "errors": [],
+    "evidence_fingerprints": {
+      "rank4/seed20260841/example/adapter-config.json": "958c26dd8ed592a87f4238fb795ee25967b731b2a3393420c6e9190c2b0e7a1c",
+      "rank4/seed20260841/example/adapter.safetensors": "08818ba28c662c96e2beee8ba835778632b994f8f663b2de59ea48974590b289",
+      "rank4/seed20260841/example/eval-receipt.json": "ef47128d627f1939c62e9068a5779a4238e964d4e078a51fdb8926a8b25f2957",
+      "rank4/seed20260841/example/generations.jsonl": "6c97fdc000d70e6f6897d380b531b9661459d595bd8c2149e18e0171497c229a",
+      "rank4/seed20260841/example/metrics.json": "47d269800df48ef2607a64484d1e118948edd8a13dd0f7390828ed5f42477909",
+      "rank4/seed20260841/example/teacher-forced.jsonl": "82cb168c812a1a94d3878bf182b4a6d7bb71b6d2d1e5f884894de7b4679659a6",
+      "rank4/seed20260841/example/train-receipt.json": "1d90fbe7ead9827a989ae654fae6ad27de642a2a463ffe60cf8f02dfbe047940",
+      "rank4/seed20260841/example/train-resource.json": "2fd1d65142c9be6f8a259986aed2f47f554ac902fdb4a10035b169d688707050",
+      "rank4/seed20260841/example/train-stderr.log": "15167d4cf755a17ff09f23e2e063c8f4c5877132339c4d652053591386a093cb",
+      "rank4/seed20260841/example/train-stdout.log": "3c7546aed1ad931e2fe0381209e74c682ac1f7834f9dd3b1840472940166f8d1",
+      "rank4/seed20260841/selection.json": "509cb32a89f11c2d2d98aaa95d9c0adb037a6b14020f2d0386dfad43c1c973e6",
+      "rank4/seed20260841/token/adapter-config.json": "e550700d534064ce6f59bb0d77dd107e0d51c52785739bd555dfaeee10dd55b0",
+      "rank4/seed20260841/token/adapter.safetensors": "c173777aec7a1d7c0741414838e5d8a59c7efad2a569086d8e220f579939cc98",
+      "rank4/seed20260841/token/eval-receipt.json": "0e428d1284500f8b2e69e62bf6c35db923295c4797bb24408cc8c3846387b36b",
+      "rank4/seed20260841/token/generations.jsonl": "81ce204f1e004ae3244828604f7e0a1684412ae2489cd86b724e8b5f899f9eaa",
+      "rank4/seed20260841/token/metrics.json": "bc2f0d0fa180ebba8beae48c716b8077aacc4998378ef09428651b5ddf39cb3c",
+      "rank4/seed20260841/token/teacher-forced.jsonl": "dc51c0c7fa76deb253b4b90ea52da5b2238ffb95e674bbae15ee2cfc0bb2383a",
+      "rank4/seed20260841/token/train-receipt.json": "790095b3dd7b769eb2554fb75df558c4d8d59c19d2fb0bceb148ab9d7a84ce05",
+      "rank4/seed20260841/token/train-resource.json": "f39b6afe8667e155b5ded979c3fd154febaf8595b85ceb3dd70994894a85dac6",
+      "rank4/seed20260841/token/train-stderr.log": "3cddfc86e15b635b916fd5532e78e2e44a9689f31261bdcd960dc4318d38b9af",
+      "rank4/seed20260841/token/train-stdout.log": "fd0e03f68be9930fd259546963d418d6e92b18fdf9cfca67f6b94030b179cd65",
+      "rank4/seed20260842/example/adapter-config.json": "a0cfc7d1a02c1d1f795e6f31025b70b2da744b9d371b0fcc013b23d58686608d",
+      "rank4/seed20260842/example/adapter.safetensors": "06fdd1d8a5fda4f538fb83648816fb96dbc2bee3df8548e5dc498c0df58b3407",
+      "rank4/seed20260842/example/eval-receipt.json": "d491712a31166e192cd9267c05eb00e5ef8857bbfa1e07606e4a938274b8d478",
+      "rank4/seed20260842/example/generations.jsonl": "fe6a6da7e3bff5e31adcfedfc52a72ee1104507acf22c390e3193637895cb67f",
+      "rank4/seed20260842/example/metrics.json": "06e769ede3b718417838cc5477d8d8083184281d8be0283d9736644d5224d40c",
+      "rank4/seed20260842/example/teacher-forced.jsonl": "e8ee857ab9cc9a72009eb76dc9202a6c0febeae1cb16938cef8e541c2d6478aa",
+      "rank4/seed20260842/example/train-receipt.json": "d3a1b39392fbf32f235e9d3b28cd8ed9101a962d3d97c76257401dd923836ad4",
+      "rank4/seed20260842/example/train-resource.json": "7cecaaca844aee2bf68e27d63562f788540d577f0a3a49529c324884e3359122",
+      "rank4/seed20260842/example/train-stderr.log": "de420a40b39bd7f3958508871ced1c34d1c131b5662a21fa8a228e3d210dd46a",
+      "rank4/seed20260842/example/train-stdout.log": "2ae07e13c2e9583414e907c2020abd491afe22fa056f7f40f7f117c20db3271c",
+      "rank4/seed20260842/selection.json": "e955af2974ff2f0e114d4a5943478dc461958d5237eec3176df7c03bc64d2321",
+      "rank4/seed20260842/token/adapter-config.json": "d4397fb114ac6962563c3878af1a725ed56b13f9fc53602c65b209c381cee672",
+      "rank4/seed20260842/token/adapter.safetensors": "822ae137bc8245f567cb2b27509ca49564cfac5a3e338e9313605c73972dc9fb",
+      "rank4/seed20260842/token/eval-receipt.json": "0c64f88915a4ddeea21abdb2f49f1e543f9c041eac1ab50bb11fc58fe5ce36b9",
+      "rank4/seed20260842/token/generations.jsonl": "db4282ba4b7557ead61cbb41dd8370e6f19b0f5b38f1fa15b17be1445ff2433c",
+      "rank4/seed20260842/token/metrics.json": "2e1485e828dbe5665509727eb0e5540bf6d1f401f141f85210c5b56870e4e7aa",
+      "rank4/seed20260842/token/teacher-forced.jsonl": "f775e4d8d0e39df6cf3a13fcab4843149df64dfc4d36cc2f03ffd34184c86dca",
+      "rank4/seed20260842/token/train-receipt.json": "2d5383faabe32004530ed306d0846d99c7e1b7f1fdf57836f404fdbee7d96d05",
+      "rank4/seed20260842/token/train-resource.json": "7498a943382a0e444948b0ca23938169521e29a66468b497c991ffb947fdde8f",
+      "rank4/seed20260842/token/train-stderr.log": "16cd54c092aa95d4de44204d07f05ef851e0bd61b89e807e283c358e3e89f351",
+      "rank4/seed20260842/token/train-stdout.log": "87e4a85db19abd6376b2ebb5f285f22994f4d8faa869ef8cf09389bf47926ce3",
+      "rank4/seed20260843/example/adapter-config.json": "41c7433702e61c8f2644338c14172767fd05fae674c41608c34ed38d0d909a0b",
+      "rank4/seed20260843/example/adapter.safetensors": "8874d24ab9f1a9dffec5555283eaef61034d348c024a385e53d8ff281b24ab16",
+      "rank4/seed20260843/example/eval-receipt.json": "1099f044c0d277e875f31c1f898b63f64367be45545036bc7436959238103ea5",
+      "rank4/seed20260843/example/generations.jsonl": "b338245c7c03d12cdb814096bbe32cf6b95c1f0ab4ccc11cc25ddcf736d5c667",
+      "rank4/seed20260843/example/metrics.json": "5ac009ae52d5cc78c41cd44d87af549a8d4116ab82595744d432fbc64609b68a",
+      "rank4/seed20260843/example/teacher-forced.jsonl": "0e6a33f32a94a47071cae774725ed19b333c8cf50837e089de05389807c4f267",
+      "rank4/seed20260843/example/train-receipt.json": "0ddac15242083d66b12909d88832d1472808f2de062818fc3ebc8d31ad97649b",
+      "rank4/seed20260843/example/train-resource.json": "8bae68ec074c8a2721539d020d041d0a0baeeda787e3290c955244f2e2c0b6d6",
+      "rank4/seed20260843/example/train-stderr.log": "83692c0af53a97c8a0d0e4204fab64cd01ac70bf1c46a537693ba639b0d43ad7",
+      "rank4/seed20260843/example/train-stdout.log": "c0b47ebf3325ffd92937ef8f0a75e8f6efc837f1f73372f789e6cf9b2b552dbd",
+      "rank4/seed20260843/selection.json": "25ea7733935c1e37de41eb0f309fe8213a9d96ac8486b571368663e6742395ea",
+      "rank4/seed20260843/token/adapter-config.json": "20e9cdc03d60304a6bd6cbf04d41d4d4ee8ce0795cec5dcd6e01a08762f63958",
+      "rank4/seed20260843/token/adapter.safetensors": "48bdb3edf9a34214f7fb81e1d1a83ecb01f4af64c8fd259a59d7034562f7f73c",
+      "rank4/seed20260843/token/eval-receipt.json": "df7f66ea70ea79d48b0227feecac91f4f4800a6cc215fcc5dd6042d28d1c62cb",
+      "rank4/seed20260843/token/generations.jsonl": "e0c758d9c8cb9cb58d1831abaaf2c7e31fec5a521f7ab697c949b66dff3208da",
+      "rank4/seed20260843/token/metrics.json": "550cde3ca6a5776430f36119b6a02041b1700315cb6c8795c7627c81dc2e8d45",
+      "rank4/seed20260843/token/teacher-forced.jsonl": "e793b8b06e4c0441f2dc11109e5c8d7a41a892da7430dd4510a5c1825fbf40b4",
+      "rank4/seed20260843/token/train-receipt.json": "5e591b44526dfa9f7b2333e2394b5cd0181392e4934f26adb83892fba9f97923",
+      "rank4/seed20260843/token/train-resource.json": "12ec2cd2f45f70597f347bb9a38fe81ad24d15b5a07aa3bbbc2905695d6789bf",
+      "rank4/seed20260843/token/train-stderr.log": "6afdf7ad192b530b9b826b0f95d75b12c1a106f5abd251da3b666cb4ad344aa3",
+      "rank4/seed20260843/token/train-stdout.log": "7ddacee081cee051d076627c6d0ab2fccc19b78cb28dab3de3da23f082b2a02a"
+    },
+    "gates": {
+      "all_valid": true,
+      "headroom_two_seeds": true,
+      "selected_exact_within_5pp_every_seed": false,
+      "selected_lower_nll_every_seed": false,
+      "selected_mean_exact_higher_than_both": false,
+      "selected_mean_nll_lower_than_both": false,
+      "selected_worst_exact_higher_than_both": false,
+      "selected_worst_nll_lower_than_both": false
+    },
+    "protocol": "lora-selection-robustness-rank-1.0",
+    "protocol_sha256": "d381bed59456352132e5c108a7556c52657fd6a3defe4da1013f39c26a761f58",
+    "provenance": {
+      "analyzer_sha256": "158b62e9f56fce3ef2eb6a080198387077a4f42ad7b93a92479bf44ab87c67b8",
+      "frozen_data_manifest": {
+        "facts_per_skill": 48,
+        "generator_seed": 20260809,
+        "long_completion_words": 8,
+        "splits": {
+          "test": {
+            "long": 48,
+            "records": 96,
+            "sha256": "0a6900dcdf3ff71885bcb18fc5df908f55b93daef2caad027d8e2f2044620899",
+            "short": 48
+          },
+          "train": {
+            "long": 192,
+            "records": 384,
+            "sha256": "08051d9c2015eb5769aa165b2d45907e57ccf8327336dc9b6985c681615efca9",
+            "short": 192
+          },
+          "valid": {
+            "long": 48,
+            "records": 96,
+            "sha256": "e63ce5a4a2c308ec0366e230f73a007150239a5d4579cdeb88507cbc4899d704",
+            "short": 48
+          }
+        },
+        "train_templates_per_fact": 4
+      },
+      "portability_transform": "machine-local provenance.runs replaced by package-relative runs; all scientific fields preserved",
+      "run_rank_stage_sha256": "d2d13c3dd532932d170599805894a661f9e6bbeca1ca3648aa1046174223c2d3",
+      "runs": "runs",
+      "source_classification_sha256": "d1eedbba12c3bcdc61a3b64a4bc5866316fc21e57d9de6fddf89b44eeae00c7d"
+    },
+    "rank": 4,
+    "rows": [
+      {
+        "first_eval_start": "2026-08-10T05:24:15.875973+08:00",
+        "last_train_end": "2026-08-10T05:24:15.666708+08:00",
+        "other_metrics": {
+          "balanced_exact": 0.5104166666666667,
+          "balanced_nll": 0.3503458238809801,
+          "long_exact": 0.5208333333333334,
+          "short_exact": 0.5
+        },
+        "seed": 20260841,
+        "selected": "example",
+        "selected_metrics": {
+          "balanced_exact": 0.75,
+          "balanced_nll": 0.12386641136641137,
+          "long_exact": 0.625,
+          "short_exact": 0.875
+        },
+        "selection_mtime": "2026-08-10T05:24:15.848940+08:00"
+      },
+      {
+        "first_eval_start": "2026-08-10T05:33:40.473337+08:00",
+        "last_train_end": "2026-08-10T05:33:40.266572+08:00",
+        "other_metrics": {
+          "balanced_exact": 0.08333333333333334,
+          "balanced_nll": 0.7560715001144689,
+          "long_exact": 0.10416666666666667,
+          "short_exact": 0.0625
+        },
+        "seed": 20260842,
+        "selected": "example",
+        "selected_metrics": {
+          "balanced_exact": 0.23958333333333331,
+          "balanced_nll": 0.4840029870303308,
+          "long_exact": 0.14583333333333334,
+          "short_exact": 0.3333333333333333
+        },
+        "selection_mtime": "2026-08-10T05:33:40.442594+08:00"
+      },
+      {
+        "first_eval_start": "2026-08-10T05:42:55.462603+08:00",
+        "last_train_end": "2026-08-10T05:42:55.252546+08:00",
+        "other_metrics": {
+          "balanced_exact": 0.20833333333333334,
+          "balanced_nll": 0.49514972874347873,
+          "long_exact": 0.125,
+          "short_exact": 0.2916666666666667
+        },
+        "seed": 20260843,
+        "selected": "token",
+        "selected_metrics": {
+          "balanced_exact": 0.09375,
+          "balanced_nll": 0.577176664481352,
+          "long_exact": 0.08333333333333333,
+          "short_exact": 0.10416666666666667
+        },
+        "selection_mtime": "2026-08-10T05:42:55.430083+08:00"
+      }
+    ]
+  },
+  "statement": "Validation selection fails the frozen gates at rank 4 but passes on the matched fresh rank-8 seed block, supporting a bounded rank-specific break.",
+  "terminal": true
+}

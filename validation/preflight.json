@@ -1,0 +1,66 @@
+{
+  "analyzer_fixture_test": "{\n  \"corruption_errors\": 54,\n  \"corruption_fixture\": \"INCONCLUSIVE_INVALID\",\n  \"positive_fixture\": \"TRANSFER_SUPPORTED\",\n  \"scientific_failure_fixture\": \"NONTRANSFER_OR_MIXED\",\n  \"status\": \"PASS\"\n}",
+  "asset_hashes": {
+    "analyzer": "158b62e9f56fce3ef2eb6a080198387077a4f42ad7b93a92479bf44ab87c67b8",
+    "data_manifest": "6e4cbdeacfee45ed1b3d201d2168d52256e77f1e762d0ee523ca00b7d07efe71",
+    "historical_evaluator": "e4fe991feb32dc4ad7108eff4e88462fa85bcd39e1bfc2f9e918ec3b7a79f647",
+    "historical_run_capture": "e8ba19d058c05064c42002644800d02fb014cf65bf4343e67d213b344abc150d",
+    "historical_trainer": "c59c687bad6b1a4b87160d7df3c9f1160adb80edbaa4a7be255810d453a4139d",
+    "mlx_lm_lora_source": "4d3a8edab111d4ddba33398ba8700203db7b61621c39e9c348fdd50e57278b45",
+    "mlx_lm_trainer_source": "ee33ebdbd20a184108541cb490d08085485e71a82ffd6d68d7d216029ecd28fe",
+    "mlx_lm_utils_source": "166eaf5e5f923113bed43614a5fb7319795fa0cac5a7fa319ea54e5f0045b553",
+    "model_config": "7319e769e58a8d819f67a83b3d413624a4a143dccde0d0d326b223ca74f71157",
+    "model_weights": "add1354a3e8ddf16fd4308ce9556b2b11c0b6e45863f8898e28e0a0bb8ae18e8",
+    "protocol": "d381bed59456352132e5c108a7556c52657fd6a3defe4da1013f39c26a761f58",
+    "rank8_earned_builder": "6a3df7920ee7051de1b855dc7367466f5641b304410807e7f8a403c7ff65eeb8",
+    "rank_trainer": "3bdfdaa12bb17ea34f4292a77304220e2cc73bde4e7a6c5967bfbe79ee2e23dc",
+    "runner": "d2d13c3dd532932d170599805894a661f9e6bbeca1ca3648aa1046174223c2d3",
+    "synthesizer": "6486388fb0263ac3b300b2dceee23a14e64f6648202575a7ecd4d8d15bf2b7dd",
+    "test_analyzer": "d1df9eca57bdea8e40717f29668a7e1bded9845a6b4d3837078227bcc2fe0c1f",
+    "test_rank8_earned_builder": "aaf4b9cfca6362589c678ad23e9a89200667caaf3b5fa1e5e08c5e7c2be4af78",
+    "test_rank8_gate": "7f274e8838523ae5db0e6025765e220ebfe7f1c87998aab586bd9d45be27e6e6",
+    "test_runner_plan": "d3c0647a5d9ca1713524f171fecda9913095f4d2d9cdbb14dfa0a91fa5053181",
+    "test_synthesizer": "2bcacffc9b613c1b56df891b41c5d038e08f97f073f6f5084864b0c20fae98fe"
+  },
+  "environment": {
+    "mlx": "0.31.2",
+    "mlx-lm": "0.31.3",
+    "python": "frozen-interpreter"
+  },
+  "errors": [],
+  "estimate_basis": "historical rank-8 576-update training peak; rank 4 reduces adapter parameters and should not exceed it materially",
+  "estimated_peak_mlx_memory_gb": 0.831,
+  "frozen_seeds": [
+    20260841,
+    20260842,
+    20260843
+  ],
+  "portability_transform": "absolute asset keys replaced by logical labels and interpreter path replaced by frozen-interpreter; all checks/results preserved",
+  "qwen_loaded": false,
+  "rank4_parameters_tiny_linear": 112,
+  "rank8_builder_fixture_test": "{\n  \"positive_rank4\": \"REJECTED\",\n  \"stale_analysis\": \"REJECTED\",\n  \"status\": \"PASS\",\n  \"valid_failure\": \"EARNED\"\n}",
+  "rank8_gate_fixture_test": "{\n  \"empty_marker\": \"REJECTED\",\n  \"missing_marker\": \"REJECTED\",\n  \"positive_rank4\": \"REJECTED\",\n  \"stale_marker\": \"REJECTED\",\n  \"status\": \"PASS\",\n  \"valid_substantive_failure\": \"ACCEPTED\"\n}",
+  "rank8_parameters_tiny_linear": 224,
+  "rank_shape_checks": {
+    "rank4_a": [
+      16,
+      4
+    ],
+    "rank4_b": [
+      4,
+      12
+    ],
+    "rank8_a": [
+      16,
+      8
+    ],
+    "rank8_b": [
+      8,
+      12
+    ]
+  },
+  "result_synthesis_fixture_test": "{\n  \"decision_paths\": {\n    \"INCONCLUSIVE_INVALID+None\": \"INCONCLUSIVE_INVALID\",\n    \"NONTRANSFER_OR_MIXED+INCONCLUSIVE_INVALID\": \"INCONCLUSIVE_INVALID_MATCHED_RANK8\",\n    \"NONTRANSFER_OR_MIXED+NONTRANSFER_OR_MIXED\": \"MIXED_OR_SEED_BLOCK_INCONCLUSIVE\",\n    \"NONTRANSFER_OR_MIXED+None\": \"MATCHED_RANK8_REQUIRED\",\n    \"NONTRANSFER_OR_MIXED+TRANSFER_SUPPORTED\": \"RANK_SPECIFIC_BREAK\",\n    \"TRANSFER_SUPPORTED+None\": \"RANK4_TRANSFER_SUPPORTED\"\n  },\n  \"status\": \"PASS\"\n}",
+  "runner_plan_fixture_test": "{\n  \"frozen_seeds\": [\n    20260841,\n    20260842,\n    20260843\n  ],\n  \"max_generation_tokens\": 24,\n  \"qwen_loaded\": false,\n  \"status\": \"PASS\",\n  \"tie_policy\": \"token\"\n}",
+  "source_preflight_sha256": "679e07fc82e3153aaafe2b86d53ed2fc783047ef308a6c7f2346693aafff68ee",
+  "status": "PASS"
+}

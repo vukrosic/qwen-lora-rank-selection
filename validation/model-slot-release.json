@@ -1,0 +1,18 @@
+{
+  "initiative": "lora-selection-robustness-20260810",
+  "model_process_count_at_release": 0,
+  "rank8_classification": "TRANSFER_SUPPORTED",
+  "rank8_classification_sha256": "09c55c41866f19772ee37ce20e8952d1e7de0a93606c88a9b9df28d038aa698f",
+  "release_status": "RELEASED",
+  "released_at": "2026-08-10T06:15:46+08:00",
+  "result_outcome": "RANK_SPECIFIC_BREAK",
+  "result_sha256": "07ab41bbc7bb84730d65fa3b2b2ad10f9924b7da4223f089413b0413eb2ce1e9",
+  "scope": "single serialized local Qwen/MLX model slot",
+  "verification": {
+    "fresh_rank8_recomputation_byte_equal": true,
+    "fresh_result_recomputation_byte_equal": true,
+    "rank8_analyzer_errors": [],
+    "rank8_all_frozen_gates": true,
+    "rank8_child_receipts_completed": 12
+  }
+}
