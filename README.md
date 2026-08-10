@@ -1,3 +1,5 @@
+![Qwen3-0.6B LoRA rank 4 and rank 8 comparison](assets/lora-rank-reversal.png)
+
 # LoRA rank changed which training strategy worked
 
 We tested the same Qwen3-0.6B training decision at LoRA rank 4 and rank 8.
